@@ -35,7 +35,7 @@
 | Cabbage.jpg | 时帆旅人.jpg |
 | Sentience.jpg | 识之律者.jpg |
 | First.jpg | 始源之律者.jpg |
-| First_Branch.jpg | 始源之律者.jpg |
+| First_Branch.jpg | 始源分支流.jpg |
 | Susana.jpg | 苏莎娜.jpg |
 | Palatinus.jpg | 天元骑英.jpg |
 | Helical.jpg | 维尔薇.jpg |
