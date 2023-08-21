@@ -43,11 +43,13 @@
 | Susana.jpg | 苏莎娜 |
 | Palatinus.jpg | 天元骑英 |
 | Helical.jpg | 维尔薇 |
+| Sirin_Attack.jpg | 西琳普攻流 |
+| Sirin_Branch.jpg | 西琳蓄力流 |
 | Flamescion.jpg | 薪炎之律者 |
 | Starchasm.jpg | 魇夜星渊 |
-| Golden.jpg | 伊甸 |
+| Golden.jpg | 伊甸|
 | ShadowKnight.jpg | 影骑士 · 月轮 |
-| Dreamweaver.jpg | 羽兔|
+| Dreamweaver.jpg | 羽兔 |
 | Dreamweaver_Weapon.jpg | 羽兔武器流 |
 | Moment.jpg | 御神装 · 勿忘 |
 | LunaKindred.jpg | 月下初拥 |
@@ -58,7 +60,6 @@
 | TerminalAide0017.jpg | 终末协理0017 |
 | Finally_Branch.jpg | 终焉分支流 |
 | Finally.jpg | 终焉之律者 |
-
 
 > 图片素材来源于崩坏3通讯中心，仅供交流学习使用
 
