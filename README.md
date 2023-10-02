@@ -55,7 +55,7 @@
 | Moment.jpg | 御神装 · 勿忘 |
 | LunaKindred.jpg | 月下初拥 |
 | TheresaLuna_Attack.jpg | 月下普攻流 |
-| TheresaLuna.jpg | 月下誓约 |
+| TheresaLuna_Weapon.jpg | 月下武器流 |
 | Eclipse.jpg | 真红骑士 · 月蚀 |
 | Eclipse_Branch.jpg | 真红蓄力流 |
 | Truth.jpg | 真理之律者 |
