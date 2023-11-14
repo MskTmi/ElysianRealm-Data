@@ -8,6 +8,8 @@
 | Anchora.jpg | 不灭星锚 |
 | Refrigerator.jpg | 苍骑士 · 月魂 |
 | Silverwing.jpg | 次生银翼 |
+| CosmicExpression_Parry.jpg | 大格蕾修弹反流 |
+| CosmicExpression_Attack.jpg | 大格蕾修普攻流 |
 | Serenade.jpg | 第六夜想曲 |
 | Raven.jpg | 渡鸦 |
 | Fischl.jpg | 菲谢尔 |
@@ -47,7 +49,7 @@
 | Helical.jpg | 维尔薇 |
 | Sirin_Attack.jpg | 西琳普攻流 |
 | Sirin_Branch.jpg | 西琳蓄力流 |
-| Flamescion.jpg | 薪炎之律者|
+| Flamescion.jpg | 薪炎之律者 |
 | Starchasm.jpg | 魇夜星渊 |
 | Golden.jpg | 伊甸 |
 | ShadowKnight.jpg | 影骑士 · 月轮 |
