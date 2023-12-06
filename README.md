@@ -9,6 +9,7 @@
 | Refrigerator.jpg | 苍骑士 · 月魂 |
 | Silverwing.jpg | 次生银翼 |
 | CosmicExpression_Parry.jpg | 大格蕾修弹反流 |
+| CosmicExpression_Mixed.jpg | 大格蕾修混合流 |
 | CosmicExpression_Attack.jpg | 大格蕾修普攻流 |
 | Serenade.jpg | 第六夜想曲 |
 | Raven.jpg | 渡鸦 |
@@ -38,6 +39,7 @@
 | ShigureKira.jpg | 时雨绮罗 |
 | ShigureKira_Branch.jpg | 时雨绮 |
 | Sentience_brick.jpg | 识律板砖流 |
+| Sentience_HoeFlow.jpg | 识律锄地流 |
 | Sentience.jpg | 识之律者 |
 | First_Branch.jpg | 始源分支流 |
 | First.jpg | 始源之律者 |
