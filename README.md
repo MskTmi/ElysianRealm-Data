@@ -4,8 +4,8 @@
 | :--------------------- | :-------------- |
 | Disciplinary.jpg | 阿波尼亚 |
 | Elysia.jpg | 爱莉希雅 |
-| Vicissitude_Branch.jpg | 崩落分支流 |
-| Vicissitude_Attack.jpg | 崩落普攻流 |
+| Vicissitude_Branch.jpg | 崩符分支流 |
+| Vicissitude_Attack.jpg | 崩符普攻流 |
 | TwinSeele.jpg | 彼岸双生 |
 | Anchora.jpg | 不灭星锚 |
 | Refrigerator.jpg | 苍骑士 · 月魂 |
