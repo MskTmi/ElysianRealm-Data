@@ -4,6 +4,8 @@
 | :--------------------- | :-------------- |
 | Disciplinary.jpg | 阿波尼亚 |
 | Elysia.jpg | 爱莉希雅 |
+| Vicissitude_Branch.jpg | 崩落分支流 |
+| Vicissitude_Attack.jpg | 崩落普攻流 |
 | TwinSeele.jpg | 彼岸双生 |
 | Anchora.jpg | 不灭星锚 |
 | Refrigerator.jpg | 苍骑士 · 月魂 |
@@ -68,7 +70,6 @@
 | TerminalAide0017.jpg | 终末协理0017 |
 | Finally_Branch.jpg | 终焉分支流 |
 | Finally.jpg | 终焉之律者 |
-
 
 > 图片素材来源于崩坏3通讯中心（月光中心），仅供交流学习使用
 
