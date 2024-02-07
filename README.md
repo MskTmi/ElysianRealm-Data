@@ -4,8 +4,8 @@
 | :--------------------- | :-------------- |
 | Disciplinary.jpg | 阿波尼亚 |
 | Elysia.jpg | 爱莉希雅 |
-| Vicissitude_Branch.jpg | 崩符分支流 |
-| Vicissitude_Attack.jpg | 崩符普攻流 |
+| Vicissitude_Branch.jpg | 崩落分支流 |
+| Vicissitude_Attack.jpg | 崩落普攻流 |
 | TwinSeele.jpg | 彼岸双生 |
 | Anchora.jpg | 不灭星锚 |
 | Refrigerator.jpg | 苍骑士 · 月魂 |
@@ -17,8 +17,12 @@
 | Raven.jpg | 渡鸦 |
 | Fischl.jpg | 菲谢尔 |
 | Starry.jpg | 格蕾修 |
+| Helia.jpg | 赫丽娅 |
+| Helia_AstralRing.jpg | 赫丽娅星环流 |
 | Excelsis.jpg | 辉骑士 · 月魄 |
 | Carol.jpg | 卡萝尔 |
+| Coralie.jpg | 科拉莉 |
+| Coralie_AstralRing.jpg | 科拉莉星环流 |
 | Void.jpg | 空之律者 |
 | Delta.jpg | 狂热蓝调Δ |
 | Thunder_Attack.jpg | 雷律平A流 |
@@ -53,6 +57,7 @@
 | Helical.jpg | 维尔薇 |
 | Sirin_Attack.jpg | 西琳普攻流 |
 | Sirin_Branch.jpg | 西琳蓄力流 |
+| Senadina.jpg | 希娜狄雅 |
 | Flamescion.jpg | 薪炎之律者 |
 | Starchasm.jpg | 魇夜星渊 |
 | Golden.jpg | 伊甸 |
