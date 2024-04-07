@@ -39,6 +39,8 @@
 | Bladestrike.jpg | 破晓强袭 |
 | Human_Branch.jpg | 人律蓄力流 |
 | Human.jpg | 人之律者 |
+| Thelema.jpg | 瑟莉姆 |
+| Thelema_AstralRing.jpg | 瑟莉姆星环流 |
 | Kallen.jpg | 圣仪装 · 今样 |
 | Rosemary.jpg | 失落迷迭 |
 | Cabbage.jpg | 时帆旅人 |
@@ -75,6 +77,7 @@
 | TerminalAide0017.jpg | 终末协理0017 |
 | Finally_Branch.jpg | 终焉分支流 |
 | Finally.jpg | 终焉之律者 |
+
 
 > 图片素材来源于崩坏3通讯中心（月光中心），仅供交流学习使用
 
