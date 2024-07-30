@@ -13,6 +13,8 @@
 | CosmicExpression_Parry.jpg | 大格蕾修弹反流 |
 | CosmicExpression_Mixed.jpg | 大格蕾修混合流 |
 | CosmicExpression_Attack.jpg | 大格蕾修普攻流 |
+| Lantern.jpg | 灯 |
+| Lantern_AstralRing.jpg | 灯星环流 |
 | Serenade.jpg | 第六夜想曲 |
 | Raven.jpg | 渡鸦 |
 | Fischl.jpg | 菲谢尔 |
@@ -54,6 +56,8 @@
 | Rebirth_Swap.jpg | 死律调换流 |
 | Rebirth_Death.jpg | 死律结命流 |
 | Rebirth_Life.jpg | 死律塑灵流 |
+| Songque.jpg | 松雀 |
+| Songque_AstralRing.jpg | 松雀星环流 |
 | Susana.jpg | 苏莎娜 |
 | Palatinus.jpg | 天元骑英 |
 | Helical.jpg | 维尔薇 |
