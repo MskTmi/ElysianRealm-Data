@@ -13,6 +13,8 @@
 | CosmicExpression_Parry.jpg | 大格蕾修弹反流 |
 | CosmicExpression_Mixed.jpg | 大格蕾修混合流 |
 | CosmicExpression_Attack.jpg | 大格蕾修普攻流 |
+| Theresa_Sleep.jpg | 德丽莎睡觉流 |
+| Theresa_AstralRing.jpg | 德丽莎星环流 |
 | Lantern.jpg | 灯 |
 | Lantern_AstralRing.jpg | 灯星环流 |
 | Serenade.jpg | 第六夜想曲 |
@@ -46,8 +48,8 @@
 | Kallen.jpg | 圣仪装 · 今样 |
 | Rosemary.jpg | 失落迷迭 |
 | Cabbage.jpg | 时帆旅人 |
-| ShigureKira.jpg | 时雨绮罗 |
 | ShigureKira_Branch.jpg | 时雨绮 |
+| ShigureKira.jpg | 时雨绮罗 |
 | Sentience_brick.jpg | 识律板砖流 |
 | Sentience_HoeFlow.jpg | 识律锄地流 |
 | Sentience.jpg | 识之律者 |
