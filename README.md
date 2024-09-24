@@ -62,6 +62,8 @@
 | Songque_AstralRing.jpg | 松雀星环流 |
 | Susana.jpg | 苏莎娜 |
 | Palatinus.jpg | 天元骑英 |
+| Vita.jpg | 薇塔 |
+| Vita_AstralRing.jpg | 薇塔星环流 |
 | Helical.jpg | 维尔薇 |
 | Sirin_Attack.jpg | 西琳普攻流 |
 | Sirin_Branch.jpg | 西琳蓄力流 |
@@ -83,6 +85,7 @@
 | TerminalAide0017.jpg | 终末协理0017 |
 | Finally_Branch.jpg | 终焉分支流 |
 | Finally.jpg | 终焉之律者 |
+
 
 
 > 图片素材来源于崩坏3通讯中心（月光中心），仅供交流学习使用
