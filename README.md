@@ -23,6 +23,8 @@
 | Starry.jpg | 格蕾修 |
 | Helia.jpg | 赫丽娅 |
 | Helia_AstralRing.jpg | 赫丽娅星环流 |
+| Sparkle.jpg | 花火 |
+| Sparkle_AstralRing.jpg | 花火星环流 |
 | Excelsis.jpg | 辉骑士 · 月魄 |
 | Carol.jpg | 卡萝尔 |
 | Coralie.jpg | 科拉莉 |
@@ -87,7 +89,8 @@
 | Finally.jpg | 终焉之律者 |
 
 
-
 > 图片素材来源于崩坏3通讯中心（月光中心），仅供交流学习使用
 
 > 手动上传图床,在不弃坑的情况下可能会有一到两天延迟
+
+> 目前的维护需手动[替换文件名](https://blog.msktmi.com/posts/2024/580597065.html)，如果你有更好的方式欢迎[讨论](https://github.com/MskTmi/ElysianRealm-Data/discussions/new?category=general)
