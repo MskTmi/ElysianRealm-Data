@@ -58,7 +58,7 @@
 | First_Branch.jpg | 始源分支流 |
 | First.jpg | 始源之律者 |
 | Rebirth_Swap.jpg | 死律调换流 |
-| Rebirth_Death.jpg | 死律结命流 |
+| Rebirth_Death.jpg | 死律结命流(安愈流) |
 | Rebirth_Life.jpg | 死律塑灵流 |
 | Songque.jpg | 松雀 |
 | Songque_AstralRing.jpg | 松雀星环流 |
