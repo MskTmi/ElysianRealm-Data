@@ -63,6 +63,8 @@
 | Songque.jpg | 松雀 |
 | Songque_AstralRing.jpg | 松雀星环流 |
 | Susana.jpg | 苏莎娜 |
+| Durandal_TakeWalk.jpg | 天光驰彻逛街流 |
+| Durandal_Branch.jpg | 天光驰彻蓄力流 |
 | Palatinus.jpg | 天元骑英 |
 | Vita.jpg | 薇塔 |
 | Vita_AstralRing.jpg | 薇塔星环流 |
