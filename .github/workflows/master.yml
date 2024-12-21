@@ -1,0 +1,69 @@
+name: Create Release on Push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  create-release:
+    name: Create Release
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 安装 zip 工具
+      - name: Install zip
+        run: sudo apt-get install -y zip
+
+      # 创建仅包含图片文件的压缩包
+      - name: Create images zip file
+        run: zip -r images.zip ./* -i '*.png' '*.jpg' '*.jpeg' '*.gif'
+
+      # 获取 commit 信息
+      - name: Get commit info
+        id: commit_info
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=format:"%s")
+          echo "::set-output name=message::${COMMIT_MSG}"
+
+      # 根据标签生成 Release 内容
+      - name: Generate release content
+        id: generate_content
+        run: |
+          if [[ "${{ steps.commit_info.outputs.message }}" == *v1 ]]; then
+            RELEASE_BODY="### 使用 \`/更新乐土攻略\` 后可直接复制下面命令添加 \`XX乐土\` 唤醒词\n\n"
+            RELEASE_BODY+=" - XX\n"
+            RELEASE_BODY+="\`/RealmCommand add ImageName XX乐土\`\n"
+            RELEASE_BODY+="\`/RealmCommand add ImageName_AstralRing XX乐土2,XX星环流\`\n\n"
+            RELEASE_BODY+="> 指令内容[请]阅读[README.md](https://github.com/MskTim/Bh3-ElysianRealm-Strategy/blob/master/README.md)"
+          else
+            RELEASE_BODY="> 推荐使用 \`/更新乐土攻略\` 指令获取攻略"
+          fi
+          echo "::set-output name=release_body::${RELEASE_BODY}"
+
+      # 创建 Release 草稿
+      - name: Create release draft
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.commit_info.outputs.message }}
+          release_name: ${{ steps.commit_info.outputs.message }}整合包
+          draft: true
+          body: ${{ steps.generate_content.outputs.release_body }}
+
+      # 上传图片压缩包到 Release
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./images.zip
+          asset_name: images.zip
+          asset_content_type: application/zip
