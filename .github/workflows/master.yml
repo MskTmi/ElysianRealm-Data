@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-
 jobs:
   create-release:
     name: Create Release
@@ -19,9 +18,12 @@ jobs:
       - name: Install zip
         run: sudo apt-get install -y zip
 
-      # 创建仅包含图片文件的压缩包
-      - name: Create images zip file
-        run: zip -r images.zip ./* -i '*.png' '*.jpg' '*.jpeg' '*.gif'
+      # 创建 ElysianRealm-Data 压缩包
+      - name: Create ElysianRealm-Data.zip
+        run: |
+          mkdir ElysianRealm-Data
+          find . -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.gif' \) -exec cp {} ElysianRealm-Data/ \;
+          zip -r ElysianRealm-Data.zip ElysianRealm-Data
 
       # 获取 commit 信息
       - name: Get commit info
@@ -57,13 +59,13 @@ jobs:
           draft: true
           body: ${{ steps.generate_content.outputs.release_body }}
 
-      # 上传图片压缩包到 Release
+      # 上传压缩包至 Release
       - name: Upload release asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./images.zip
-          asset_name: images.zip
+          asset_path: ./ElysianRealm-Data.zip
+          asset_name: ElysianRealm-Data.zip
           asset_content_type: application/zip
