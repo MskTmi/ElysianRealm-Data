@@ -14,6 +14,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 获取正确的版本号 commit 信息
+      - name: Get commit info
+        id: commit_info
+        run: |
+          COMMIT_MSG=$(git log --pretty=format:"%s" | grep -E "^[0-9]+\.[0-9]+v[0-9]+$" | head -n 1)
+          if [ -z "$COMMIT_MSG" ]; then
+            echo "No valid tag found. Exiting workflow."
+            exit 0
+          fi
+          echo "::set-output name=message::${COMMIT_MSG}"
+
       # 安装 zip 工具
       - name: Install zip
         run: sudo apt-get install -y zip
@@ -24,17 +35,6 @@ jobs:
           mkdir ElysianRealm-Data
           find . -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.gif' \) -exec cp {} ElysianRealm-Data/ \;
           zip -r ElysianRealm-Data.zip ElysianRealm-Data
-
-      # 获取正确的版本号 commit 信息
-      - name: Get commit info
-        id: commit_info
-        run: |
-          COMMIT_MSG=$(git log --pretty=format:"%s" | grep -E "^[0-9]+\.[0-9]+v[0-9]+$" | head -n 1)
-          if [ -z "$COMMIT_MSG" ]; then
-            echo "No valid version tag found in commit messages."
-            exit 1
-          fi
-          echo "::set-output name=message::${COMMIT_MSG}"
 
       # 根据标签生成 Release 内容
       - name: Generate release content
