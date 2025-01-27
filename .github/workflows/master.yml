@@ -34,6 +34,8 @@ jobs:
         run: |
           mkdir ElysianRealm-Data
           find . -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.gif' \) -exec cp {} ElysianRealm-Data/ \;
+          cp LICENSE ElysianRealm-Data/
+          cp README.md ElysianRealm-Data/
           zip -r ElysianRealm-Data.zip ElysianRealm-Data
 
       # 根据标签生成 Release 内容
