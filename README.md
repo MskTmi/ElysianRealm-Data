@@ -9,6 +9,8 @@
 | TwinSeele.jpg | 彼岸双生 |
 | Anchora.jpg | 不灭星锚 |
 | Refrigerator.jpg | 苍骑士 · 月魂 |
+| Kiana_Attack.jpg | 炽愿吉星普攻流 |
+| Kiana_Jump.jpg | 炽愿吉星跳鼓流 |
 | Silverwing.jpg | 次生银翼 |
 | CosmicExpression_Parry.jpg | 大格蕾修弹反流 |
 | CosmicExpression_Mixed.jpg | 大格蕾修混合流 |
@@ -43,6 +45,7 @@
 | Gloria.jpg | 女武神 · 荣光 |
 | Felis.jpg | 帕朵菲莉丝 |
 | Bladestrike.jpg | 破晓强袭 |
+| Human_AstralRing.jpg | 人律星环流 |
 | Human_Branch.jpg | 人律蓄力流 |
 | Human.jpg | 人之律者 |
 | Thelema.jpg | 瑟莉姆 |
