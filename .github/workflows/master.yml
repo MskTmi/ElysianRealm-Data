@@ -20,33 +20,13 @@ jobs:
       - name: Get commit info
         id: commit_info
         run: |
-          echo "Step 1: 获取所有提交信息 (标题和描述)"
-          ALL_COMMITS=$(git log --pretty=format:"%s%n%b")
-          echo "ALL_COMMITS:"
-          echo "$ALL_COMMITS"
-          
-          echo "Step 2: 去除回车符"
-          CLEAN_COMMITS=$(echo "$ALL_COMMITS" | tr -d '\r')
-          echo "CLEAN_COMMITS:"
-          echo "$CLEAN_COMMITS"
-          
-          echo "Step 3: 提取符合版本号格式的字符串"
-          VERSION_MATCHES=$(echo "$CLEAN_COMMITS" | grep -Eo "[0-9]+\.[0-9]+v[0-9]+" || true)
-          echo "VERSION_MATCHES:"
-          echo "$VERSION_MATCHES"
-          
-          echo "Step 4: 获取第一个匹配结果"
-          COMMIT_MSG=$(echo "$VERSION_MATCHES" | head -n 1)
-          echo "COMMIT_MSG before check: '$COMMIT_MSG'"
-          
+          COMMIT_MSG=$(git log -n 20 --pretty=format:"%s%n%b" | tr -d '\r' | grep -Eo "[0-9]+\.[0-9]+v[0-9]+" || true | head -n 1)
           if [ -z "$COMMIT_MSG" ]; then
-            echo "No valid version tag found. Defaulting to xx.v1"
-            COMMIT_MSG="xx.v1"
-          else
-            echo "Found version: $COMMIT_MSG"
+            echo "No valid version tag found in recent commits."
+            exit 1
           fi
-          
-          echo "::set-output name=message::$COMMIT_MSG"
+          echo "Found version: $COMMIT_MSG"
+          echo "message=$COMMIT_MSG" >> $GITHUB_OUTPUT
 
       # 安装 zip 工具
       - name: Install zip
@@ -74,7 +54,7 @@ jobs:
           else
             RELEASE_BODY="> 推荐使用 \`/更新乐土攻略\` 指令获取攻略"
           fi
-          echo "::set-output name=release_body::${RELEASE_BODY}"
+          echo "release_body=${RELEASE_BODY}" >> $GITHUB_OUTPUT
 
       # 创建 Release 草稿
       - name: Create release draft
