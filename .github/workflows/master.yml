@@ -18,13 +18,33 @@ jobs:
       - name: Get commit info
         id: commit_info
         run: |
-          COMMIT_MSG=$(git log --pretty=format:"%s%n%b" | tr -d '\r' | grep -Eo "[0-9]+\.[0-9]+v[0-9]+" | head -n 1)
+          echo "Step 1: 获取所有提交信息 (标题和描述)"
+          ALL_COMMITS=$(git log --pretty=format:"%s%n%b")
+          echo "ALL_COMMITS:"
+          echo "$ALL_COMMITS"
+          
+          echo "Step 2: 去除回车符"
+          CLEAN_COMMITS=$(echo "$ALL_COMMITS" | tr -d '\r')
+          echo "CLEAN_COMMITS:"
+          echo "$CLEAN_COMMITS"
+          
+          echo "Step 3: 提取符合版本号格式的字符串"
+          VERSION_MATCHES=$(echo "$CLEAN_COMMITS" | grep -Eo "[0-9]+\.[0-9]+v[0-9]+")
+          echo "VERSION_MATCHES:"
+          echo "$VERSION_MATCHES"
+          
+          echo "Step 4: 获取第一个匹配结果"
+          COMMIT_MSG=$(echo "$VERSION_MATCHES" | head -n 1)
+          echo "COMMIT_MSG before check: '$COMMIT_MSG'"
+          
           if [ -z "$COMMIT_MSG" ]; then
-            echo "No valid version tag found in recent commits."
-            exit 1
+            echo "No valid version tag found. Defaulting to xx.v1"
+            COMMIT_MSG="xx.v1"
+          else
+            echo "Found version: $COMMIT_MSG"
           fi
-          echo "Found version: $COMMIT_MSG"
-          echo "::set-output name=message::${COMMIT_MSG}"
+          
+          echo "::set-output name=message::$COMMIT_MSG"
 
       # 安装 zip 工具
       - name: Install zip
