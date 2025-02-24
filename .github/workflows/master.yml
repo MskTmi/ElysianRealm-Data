@@ -13,6 +13,8 @@ jobs:
       # 检出仓库代码
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       # 获取正确的版本号 commit 信息
       - name: Get commit info
@@ -29,7 +31,7 @@ jobs:
           echo "$CLEAN_COMMITS"
           
           echo "Step 3: 提取符合版本号格式的字符串"
-          VERSION_MATCHES=$(echo "$CLEAN_COMMITS" | grep -Eo "[0-9]+\.[0-9]+v[0-9]+")
+          VERSION_MATCHES=$(echo "$CLEAN_COMMITS" | grep -Eo "[0-9]+\.[0-9]+v[0-9]+" || true)
           echo "VERSION_MATCHES:"
           echo "$VERSION_MATCHES"
           
