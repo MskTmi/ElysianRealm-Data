@@ -20,13 +20,13 @@ jobs:
       - name: Get commit info
         id: commit_info
         run: |
-          COMMIT_MSG=$(git log -n 20 --pretty=format:"%s%n%b" | tr -d '\r' | grep -Eo "[0-9]+\.[0-9]+v[0-9]+" || true | head -n 1)
+          COMMIT_MSG=$(git log -n 20 --pretty=format:"%s%n%b" | tr -d '\r' | grep -Eo "[0-9]+\.[0-9]+v[0-9]+" | { head -n 1 || echo ""; })
           if [ -z "$COMMIT_MSG" ]; then
             echo "No valid version tag found in recent commits."
             exit 1
           fi
           echo "Found version: $COMMIT_MSG"
-          echo "message=$COMMIT_MSG" >> $GITHUB_OUTPUT
+          echo "message=${COMMIT_MSG}" >> "$GITHUB_OUTPUT"
 
       # 安装 zip 工具
       - name: Install zip
