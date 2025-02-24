@@ -18,7 +18,7 @@ jobs:
       - name: Get commit info
         id: commit_info
         run: |
-          COMMIT_MSG=$(git log -n 20 --pretty=format:"%s%n%b" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -E "^[0-9]+\.[0-9]+v[0-9]+$" | head -n 1)
+          COMMIT_MSG=$(git log --pretty=format:"%s%n%b" | tr -d '\r' | grep -Eo "[0-9]+\.[0-9]+v[0-9]+" | head -n 1)
           if [ -z "$COMMIT_MSG" ]; then
             echo "No valid version tag found in recent commits."
             exit 1
