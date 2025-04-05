@@ -54,7 +54,7 @@ jobs:
           else
             RELEASE_BODY="> 推荐使用 \`/更新乐土攻略\` 指令获取攻略"
           fi
-          echo "release_body=${RELEASE_BODY}" >> $GITHUB_OUTPUT
+          echo -e "release_body<<EOF\n${RELEASE_BODY}\nEOF" >> $GITHUB_OUTPUT
 
       # 创建 Release 草稿
       - name: Create release draft
