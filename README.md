@@ -78,6 +78,8 @@
 | Flamescion.jpg | 薪炎之律者 |
 | Starchasm.jpg | 魇夜星渊 |
 | Golden.jpg | 伊甸 |
+| PeregrineSword.jpg | 一客逍游 |
+| PeregrineSword_AstralRing.jpg | 一客逍游星环流 |
 | ShadowKnight.jpg | 影骑士 · 月轮 |
 | Dreamweaver.jpg | 羽兔 |
 | Dreamweaver_Weapon.jpg | 羽兔武器流 |
