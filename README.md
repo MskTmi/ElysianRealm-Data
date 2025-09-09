@@ -30,6 +30,8 @@
 | Excelsis.jpg | 辉骑士 · 月魄 |
 | Carol.jpg | 卡萝尔 |
 | Coralie.jpg | 科拉莉 |
+| CoralieDragon.jpg | 科拉莉 · 魔龙 |
+| CoralieDragon_AstralRing.jpg | 科拉莉 · 魔龙星环流 |
 | Coralie_AstralRing.jpg | 科拉莉星环流 |
 | Void.jpg | 空之律者 |
 | Delta.jpg | 狂热蓝调Δ |
@@ -47,6 +49,7 @@
 | Bladestrike.jpg | 破晓强袭 |
 | Human_Branch.jpg | 人律蓄力流 |
 | Human.jpg | 人之律者 |
+| Human_AstralRing.jpg | 人之律者星环流 |
 | Thelema.jpg | 瑟莉姆 |
 | Thelema_AstralRing.jpg | 瑟莉姆星环流 |
 | Kallen.jpg | 圣仪装 · 今样 |
@@ -60,7 +63,7 @@
 | First_Branch.jpg | 始源分支流 |
 | First.jpg | 始源之律者 |
 | Rebirth_Swap.jpg | 死律调换流 |
-| Rebirth_Death.jpg | 死律结命流 |
+| Rebirth_Death.jpg | 死律结命流/安愈流 |
 | Rebirth_Life.jpg | 死律塑灵流 |
 | Songque.jpg | 松雀 |
 | Songque_AstralRing.jpg | 松雀星环流 |
@@ -91,7 +94,6 @@
 | TerminalAide0017.jpg | 终末协理0017 |
 | Finally_Branch.jpg | 终焉分支流 |
 | Finally.jpg | 终焉之律者 |
-
 
 
 > 图片素材来源于崩坏3通讯中心（月光中心），仅供交流学习使用
