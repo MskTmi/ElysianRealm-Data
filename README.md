@@ -9,8 +9,6 @@
 | TwinSeele.jpg | 彼岸双生 |
 | Anchora.jpg | 不灭星锚 |
 | Refrigerator.jpg | 苍骑士 · 月魂 |
-| Kiana_Attack.jpg | 炽愿吉星普攻流 |
-| Kiana_Jump.jpg | 炽愿吉星跳鼓流 |
 | Silverwing.jpg | 次生银翼 |
 | CosmicExpression_Parry.jpg | 大格蕾修弹反流 |
 | CosmicExpression_Mixed.jpg | 大格蕾修混合流 |
@@ -24,6 +22,8 @@
 | Fischl.jpg | 菲谢尔 |
 | Starry.jpg | 格蕾修 |
 | Helia.jpg | 赫丽娅 |
+| HeliaReborn.jpg | 赫丽娅 · 失序时空 |
+| HeliaReborn_AstralRing.jpg | 赫丽娅 · 失序时空星环流  |
 | Helia_AstralRing.jpg | 赫丽娅星环流 |
 | Sparkle.jpg | 花火 |
 | Sparkle_AstralRing.jpg | 花火星环流 |
@@ -45,7 +45,6 @@
 | Gloria.jpg | 女武神 · 荣光 |
 | Felis.jpg | 帕朵菲莉丝 |
 | Bladestrike.jpg | 破晓强袭 |
-| Human_AstralRing.jpg | 人律星环流 |
 | Human_Branch.jpg | 人律蓄力流 |
 | Human.jpg | 人之律者 |
 | Thelema.jpg | 瑟莉姆 |
@@ -61,7 +60,7 @@
 | First_Branch.jpg | 始源分支流 |
 | First.jpg | 始源之律者 |
 | Rebirth_Swap.jpg | 死律调换流 |
-| Rebirth_Death.jpg | 死律结命流(安愈流) |
+| Rebirth_Death.jpg | 死律结命流 |
 | Rebirth_Life.jpg | 死律塑灵流 |
 | Songque.jpg | 松雀 |
 | Songque_AstralRing.jpg | 松雀星环流 |
@@ -78,8 +77,6 @@
 | Flamescion.jpg | 薪炎之律者 |
 | Starchasm.jpg | 魇夜星渊 |
 | Golden.jpg | 伊甸 |
-| PeregrineSword.jpg | 一客逍游 |
-| PeregrineSword_AstralRing.jpg | 一客逍游星环流 |
 | ShadowKnight.jpg | 影骑士 · 月轮 |
 | Dreamweaver.jpg | 羽兔 |
 | Dreamweaver_Weapon.jpg | 羽兔武器流 |
@@ -94,6 +91,7 @@
 | TerminalAide0017.jpg | 终末协理0017 |
 | Finally_Branch.jpg | 终焉分支流 |
 | Finally.jpg | 终焉之律者 |
+
 
 
 > 图片素材来源于崩坏3通讯中心（月光中心），仅供交流学习使用
