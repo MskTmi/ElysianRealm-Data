@@ -100,4 +100,5 @@
 
 > 手动上传图床,在不弃坑的情况下可能会有一到两天延迟
 
-> 目前的维护需手动[替换文件名](https://blog.msktmi.com/posts/2024/580597065.html)，如果你有更好的方式欢迎[讨论](https://github.com/MskTmi/ElysianRealm-Data/discussions/new?category=general)
+> ~目前的维护需手动[替换文件名](https://blog.msktmi.com/posts/2024/580597065.html)~  
+> 目前的维护可使用[自动化脚本](https://github.com/MskTmi/ImageHostUpdater)，如果您有更好的方式欢迎[讨论](https://github.com/MskTmi/ElysianRealm-Data/discussions/new?category=general)~
