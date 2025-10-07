@@ -4,6 +4,8 @@
 | :--------------------- | :-------------- |
 | Disciplinary.jpg | 阿波尼亚 |
 | Elysia.jpg | 爱莉希雅 |
+| LoveELF.jpg | 爱愿妖精 |
+| LoveELF_AstralRing.jpg | 爱愿妖精星环流 |
 | Vicissitude_Branch.jpg | 崩落分支流 |
 | Vicissitude_Attack.jpg | 崩落普攻流 |
 | TwinSeele.jpg | 彼岸双生 |
@@ -65,6 +67,8 @@
 | Rebirth_Swap.jpg | 死律调换流 |
 | Rebirth_Death.jpg | 死律结命流/安愈流 |
 | Rebirth_Life.jpg | 死律塑灵流 |
+| Rebirth.jpg | 死律非星环流 |
+| Rebirth_Life.jpg | 死律星环流 |
 | Songque.jpg | 松雀 |
 | Songque_AstralRing.jpg | 松雀星环流 |
 | Susana.jpg | 苏莎娜 |
