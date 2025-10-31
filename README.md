@@ -68,7 +68,7 @@
 | Rebirth_Death.jpg | 死律结命流/安愈流 |
 | Rebirth_Life.jpg | 死律塑灵流 |
 | Rebirth.jpg | 死律非星环流 |
-| Rebirth_Life.jpg | 死律星环流 |
+| Rebirth_AstralRing.jpg | 死律星环流 |
 | Songque.jpg | 松雀 |
 | Songque_AstralRing.jpg | 松雀星环流 |
 | Susana.jpg | 苏莎娜 |
