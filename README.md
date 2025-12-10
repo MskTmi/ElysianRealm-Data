@@ -41,7 +41,11 @@
 | Thunder_Punishment.jpg | 雷律天罚流 |
 | Thunder.jpg | 雷之律者 |
 | Susang.jpg | 李素裳 |
+| PeregrineSword.jpg | 李素裳 · 一客逍游 |
+| PeregrineSword_AstralRing.jpg | 李素裳 · 一客逍游星环流 |
 | Reason.jpg | 理之律者 |
+| Miss Espionage.jpg | 丽塔 |
+| Miss Espionage_AstralRing.jpg | 丽塔 |
 | Oven.jpg | 缭乱星棘 |
 | Lnfinite.jpg | 梅比乌斯 |
 | Twilight.jpg | 暮光骑士 · 月煌 |
@@ -49,6 +53,8 @@
 | Gloria.jpg | 女武神 · 荣光 |
 | Felis.jpg | 帕朵菲莉丝 |
 | Bladestrike.jpg | 破晓强袭 |
+| Kiana_Attack.jpg | 琪亚娜普攻流 |
+| Kiana_Jump.jpg | 琪亚娜跳鼓流 |
 | Human_Branch.jpg | 人律蓄力流 |
 | Human.jpg | 人之律者 |
 | Human_AstralRing.jpg | 人之律者星环流 |
@@ -65,9 +71,9 @@
 | First_Branch.jpg | 始源分支流 |
 | First.jpg | 始源之律者 |
 | Rebirth_Swap.jpg | 死律调换流 |
+| Rebirth.jpg  | 死律非星环流 |
 | Rebirth_Death.jpg | 死律结命流/安愈流 |
 | Rebirth_Life.jpg | 死律塑灵流 |
-| Rebirth.jpg | 死律非星环流 |
 | Rebirth_AstralRing.jpg | 死律星环流 |
 | Songque.jpg | 松雀 |
 | Songque_AstralRing.jpg | 松雀星环流 |
