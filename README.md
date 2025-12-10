@@ -44,8 +44,8 @@
 | PeregrineSword.jpg | 李素裳 · 一客逍游 |
 | PeregrineSword_AstralRing.jpg | 李素裳 · 一客逍游星环流 |
 | Reason.jpg | 理之律者 |
-| Miss Espionage.jpg | 丽塔 |
-| Miss Espionage_AstralRing.jpg | 丽塔 |
+| Rita_MissEspionage.jpg | 丽塔 · 窈窕谍影 |
+| Rita_MissEspionage_AstralRing.jpg | 丽塔 · 窈窕谍影 |
 | Oven.jpg | 缭乱星棘 |
 | Lnfinite.jpg | 梅比乌斯 |
 | Twilight.jpg | 暮光骑士 · 月煌 |
