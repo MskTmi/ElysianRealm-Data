@@ -88,6 +88,8 @@
 | Sirin_Branch.jpg | 西琳蓄力流 |
 | Senadina.jpg | 希娜狄雅 |
 | Flamescion.jpg | 薪炎之律者 |
+| Mei_DawnbearingCrescent.jpg | 芽衣 · 偃月叩晓 |
+| Mei_DawnbearingCrescent_AstralRing.jpg | 芽衣 · 偃月叩晓星环流 |
 | Starchasm.jpg | 魇夜星渊 |
 | Golden.jpg | 伊甸 |
 | ShadowKnight.jpg | 影骑士 · 月轮 |
@@ -97,6 +99,8 @@
 | LunaKindred.jpg | 月下初拥 |
 | TheresaLuna_Attack.jpg | 月下普攻流 |
 | TheresaLuna_Weapon.jpg | 月下武器流 |
+| TheresaLuna.jpg | 月下非星环流 |
+| TheresaLuna_AstralRing.jpg | 月下星环流 |
 | Eclipse.jpg | 真红骑士 · 月蚀 |
 | Eclipse_Branch.jpg | 真红蓄力流 |
 | Truth.jpg | 真理之律者 |
