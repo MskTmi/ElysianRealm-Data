@@ -12,6 +12,7 @@
 | Anchora.jpg | 不灭星锚 |
 | Refrigerator.jpg | 苍骑士 · 月魂 |
 | Silverwing.jpg | 次生银翼 |
+| Silverwing_AstralRing.jpg | 次生银翼星环流 |
 | CosmicExpression_Parry.jpg | 大格蕾修弹反流 |
 | CosmicExpression_Mixed.jpg | 大格蕾修混合流 |
 | CosmicExpression_Attack.jpg | 大格蕾修普攻流 |
