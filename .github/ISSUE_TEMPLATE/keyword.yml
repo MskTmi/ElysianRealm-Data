@@ -31,7 +31,6 @@ body:
       placeholder: |
         人律乐土
         爱律乐土
-      render: text
     validations:
       required: true
 
