@@ -10,7 +10,7 @@ body:
         请使用此模板提交角色关键词。
 
         提交前请先确认：
-        - 角色 ID 与 keywords 目录中的文件名一致，例如 Human 对应 keywords/Human.json。
+        - 角色 ID 与 meta 目录中的文件名一致，例如 Human 对应 meta/Human.json。
         - 关键词每行一个，避免把多个词写在同一行。
         - 若关键词可能与其他角色重合，可直接提交，仓库会按最新更新时间优先匹配。
 
@@ -18,7 +18,7 @@ body:
     id: role
     attributes:
       label: 角色 ID
-      description: 对应 keywords 目录中的文件名，不包含 .json 后缀。
+      description: 对应 meta 目录中的文件名，不包含 .json 后缀。
       placeholder: Human
     validations:
       required: true

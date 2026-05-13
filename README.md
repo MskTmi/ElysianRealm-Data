@@ -2,17 +2,68 @@
 
 ## 项目说明
 
-本分支为开发版本，主要用于重构数据结构，并解决旧版本需要手动维护图片索引的问题。
+本仓库采用“源数据结构”和“运行时结构”分离的设计：
 
-当前仓库已将 keywords 层与 data 层拆分，后续将通过构建流程自动生成索引，以减少人工维护成本和数据不一致问题。
+- source：面向维护者，使用 data 与 meta 保存图片和最小元数据
+- dist：面向插件运行时，保存自动生成的搜索索引
 
-待结构稳定后，本分支会合并至 master 作为正式版本发布，旧版本则迁移至 legacy 分支保留。
+索引由 GitHub Actions 和本地构建脚本自动生成，避免重复维护图片路径与更新时间。
 
 ## 仓库结构
 
 - data：角色图片资源
-- keywords：角色关键词文件
+- meta：角色关键词元数据，仅维护 id 与 keywords
 - dist：构建产物与索引文件
+- scripts/build-index.js：根据 meta 和 data 生成 dist/elysian-realm-index.json
+
+## 元数据格式
+
+每个角色对应一个 meta 文件，文件名必须与 id 一致。
+
+```json
+{
+	"id": "Human",
+	"keywords": [
+		"人律乐土",
+		"爱律乐土"
+	]
+}
+```
+
+图片路径不再手动维护，而是由构建脚本自动推导为 data/<id>.<ext>。
+
+## 构建产物
+
+dist/elysian-realm-index.json 采用 resources + keywords 的倒排索引结构：
+
+```json
+{
+	"schema_version": 1,
+	"generated_at": "2026-05-13T00:00:00.000Z",
+	"resources": {
+		"Human": {
+			"image": "data/Human.jpg",
+			"last_updated": "2026-04-06T16:58:02+00:00"
+		}
+	},
+	"keywords": {
+		"人律乐土": [
+			"Human_AstralRing",
+			"Human"
+		]
+	}
+}
+```
+
+同一关键词允许命中多个资源，构建时会按 last_updated 倒序排列，供插件优先返回最新攻略。
+
+## 本地构建
+
+在仓库根目录执行：
+
+```bash
+node scripts/build-index.js
+```
 
 ## 关键词匹配规则
 
@@ -158,4 +209,4 @@
 > 手动上传图床,在不弃坑的情况下可能会有一到两天延迟
 
 > ~目前的维护需手动[替换文件名](https://blog.msktmi.com/posts/2024/580597065.html)~  
-> 目前的维护可使用[自动化脚本](https://github.com/MskTmi/ImageHostUpdater)，如果您有更好的方式欢迎[讨论](https://github.com/MskTmi/ElysianRealm-Data/discussions/new?category=general)~
+> 当前仓库的 dist 索引可通过 GitHub Actions 自动构建；如果您有更好的维护方式，欢迎[讨论](https://github.com/MskTmi/ElysianRealm-Data/discussions/new?category=general)

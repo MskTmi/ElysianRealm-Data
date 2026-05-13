@@ -1,956 +1,1533 @@
 {
-    "Human": {
-        "keywords": [
-            "人律乐土",
-            "爱律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Void": {
-        "keywords": [
-            "空律乐土",
-            "女王乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Starry": {
-        "keywords": [
-            "繁星乐土",
-            "格蕾修乐土",
-            "绘世乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Disciplinary": {
-        "keywords": [
-            "阿波尼亚乐土",
-            "戒律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Golden": {
-        "keywords": [
-            "伊甸乐土",
-            "黄金乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Felis": {
-        "keywords": [
-            "帕朵乐土",
-            "猫猫乐土",
-            "帕朵菲利丝乐土",
-            "菲利丝乐土",
-            "猪咪乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Oven": {
-        "keywords": [
-            "火塔乐土",
-            "烤箱乐土",
-            "星棘乐土",
-            "星塔乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Palatinus": {
-        "keywords": [
-            "天元乐土",
-            "天鹅乐土",
-            "泥头鹅乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Silverwing": {
-        "keywords": [
-            "大鸭鸭乐土",
-            "次生银翼乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Silverwing_AstralRing": {
-        "keywords": [
-            "大鸭鸭乐土2",
-            "大鸭鸭乐土",
-            "大鸭鸭星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Carol": {
-        "keywords": [
-            "卡萝尔乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Lnfinite": {
-        "keywords": [
-            "梅比乌斯乐土",
-            "蛇蛇乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Raven": {
-        "keywords": [
-            "渡鸦乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Thunder": {
-        "keywords": [
-            "雷律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Thunder_Attack": {
-        "keywords": [
-            "雷律乐土",
-            "雷律乐土3",
-            "雷律平A流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Thunder_Punishment": {
-        "keywords": [
-            "雷律乐土2",
-            "雷律乐土",
-            "雷律天罚流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rosemary": {
-        "keywords": [
-            "迷迭乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Delta": {
-        "keywords": [
-            "萝莎莉娅乐土",
-            "粉毛乐土",
-            "德尔塔乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Anchora": {
-        "keywords": [
-            "星锚乐土",
-            "星猫乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Elysia": {
-        "keywords": [
-            "爱莉乐土",
-            "爱莉希雅乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Flamescion": {
-        "keywords": [
-            "炎律乐土",
-            "薪炎乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Sentience": {
-        "keywords": [
-            "识律乐土",
-            "识宝乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Starchasm": {
-        "keywords": [
-            "奶希乐土",
-            "冰希乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Fischl": {
-        "keywords": [
-            "皇女乐土",
-            "菲谢尔乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "TwinSeele": {
-        "keywords": [
-            "双生乐土",
-            "黑希乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Excelsis": {
-        "keywords": [
-            "幽兰戴尔乐土",
-            "月魄乐土",
-            "呆鹅乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Twilight": {
-        "keywords": [
-            "月煌乐土",
-            "紫苑乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Kallen": {
-        "keywords": [
-            "今样乐土",
-            "卡莲乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Moment": {
-        "keywords": [
-            "勿忘乐土",
-            "机八乐土",
-            "冰八乐土",
-            "八重樱乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Refrigerator": {
-        "keywords": [
-            "月魂乐土",
-            "冰箱乐土",
-            "冰塔乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Bladestrike": {
-        "keywords": [
-            "强袭乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "LunaKindred": {
-        "keywords": [
-            "月下乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Reason": {
-        "keywords": [
-            "理律乐土",
-            "摩托鸭乐土",
-            "车车乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Gloria": {
-        "keywords": [
-            "荣光乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Human_Branch": {
-        "keywords": [
-            "人律乐土2",
-            "人律乐土",
-            "人律蓄力流",
-            "人律纯蓄流",
-            "人律蓄力",
-            "爱律乐土2",
-            "爱律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Susang": {
-        "keywords": [
-            "李素裳乐土",
-            "月痕乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Helical": {
-        "keywords": [
-            "维尔薇乐土",
-            "维尔微乐土",
-            "v2v乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Void_Skill": {
-        "keywords": [
-            "女王乐土2",
-            "女王乐土",
-            "女王大招流",
-            "空律大招流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Eclipse": {
-        "keywords": [
-            "姬子乐土",
-            "真红乐土",
-            "月蚀乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Cabbage": {
-        "keywords": [
-            "包菜乐土",
-            "爱酱乐土",
-            "爱衣乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Truth": {
-        "keywords": [
-            "真理乐土",
-            "真律乐土",
-            "真鸭乐土",
-            "真理之律者乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Serenade": {
-        "keywords": [
-            "冰卡乐土",
-            "s卡乐土",
-            "S卡乐土",
-            "怪盗乐土",
-            "舞卡乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Truth_Weapon": {
-        "keywords": [
-            "真理乐土2",
-            "真理乐土",
-            "真理武器流",
-            "真律武器流",
-            "真鸭武器流",
-            "真理之律者武器流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Eclipse_Branch": {
-        "keywords": [
-            "真红乐土2",
-            "真红乐土",
-            "姬子蓄力流",
-            "真红蓄力流",
-            "月蚀蓄力流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "First": {
-        "keywords": [
-            "始源乐土",
-            "始源大招流",
-            "始源大招流乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "First_Branch": {
-        "keywords": [
-            "始源乐土2",
-            "始源乐土",
-            "始源之律者乐土",
-            "始源分支流",
-            "始源蓄力流",
-            "始源分支流乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Finally": {
-        "keywords": [
-            "终焉乐土",
-            "终焉之律者乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Finally_Branch": {
-        "keywords": [
-            "终焉乐土2",
-            "终焉乐土",
-            "终焉分支流",
-            "终焉蓄力流",
-            "终焉分支流乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "ShadowKnight": {
-        "keywords": [
-            "月轮乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Susana": {
-        "keywords": [
-            "苏莎娜乐土",
-            "苏珊娜乐土",
-            "热砂乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Dreamweaver": {
-        "keywords": [
-            "羽兔乐土2",
-            "羽兔乐土",
-            "羽兔投矛流",
-            "羽兔大招流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Dreamweaver_Weapon": {
-        "keywords": [
-            "羽兔乐土",
-            "羽兔摇旗流",
-            "羽兔武器流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "TerminalAide0017": {
-        "keywords": [
-            "0017乐土",
-            "终末乐土",
-            "终末协理乐土",
-            "普罗米修斯乐土",
-            "普鸭乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "ShigureKira": {
-        "keywords": [
-            "时雨绮罗乐土",
-            "时雨绮罗大招流",
-            "时雨乐土",
-            "绮罗乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "ShigureKira_Branch": {
-        "keywords": [
-            "绮罗乐土2",
-            "绮罗乐土",
-            "时雨绮罗乐土2",
-            "时雨绮罗乐土",
-            "时雨绮罗蓄力流",
-            "时雨绮罗分支流",
-            "绮罗分支流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rebirth_Life": {
-        "keywords": [
-            "死律乐土3",
-            "死律乐土",
-            "死律塑灵流",
-            "死律塑灵流乐土",
-            "塑灵流乐土",
-            "死生之律者乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rebirth_Death": {
-        "keywords": [
-            "死律乐土2",
-            "死律乐土",
-            "死生之律者乐土2",
-            "死生之律者乐土",
-            "死律结命流",
-            "死律结命流乐土",
-            "结命流乐土",
-            "死律安愈流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rebirth_Swap": {
-        "keywords": [
-            "死律乐土4",
-            "死律乐土",
-            "死律凋换流",
-            "死律凋换流乐土",
-            "凋换流乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Sirin_Attack": {
-        "keywords": [
-            "西琳乐土2",
-            "西琳乐土",
-            "河豚乐土2",
-            "河豚乐土",
-            "西琳普攻流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Sirin_Branch": {
-        "keywords": [
-            "西琳乐土",
-            "河豚乐土",
-            "西琳蓄力流",
-            "西琳分支流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "TheresaLuna_Weapon": {
-        "keywords": [
-            "月下誓约乐土",
-            "月下誓约武器流",
-            "大月下武器流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "TheresaLuna_Attack": {
-        "keywords": [
-            "月下誓约普攻流",
-            "大月下普攻流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Sentience_brick": {
-        "keywords": [
-            "识律板砖流",
-            "识律乐土2",
-            "识律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "CosmicExpression_Parry": {
-        "keywords": [
-            "大格蕾修乐土",
-            "大格蕾修弹反流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "CosmicExpression_Attack": {
-        "keywords": [
-            "大格蕾修乐土2",
-            "大格蕾修乐土",
-            "大格蕾修普攻流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Sentience_HoeFlow": {
-        "keywords": [
-            "识律锄地流",
-            "识律乐土3",
-            "识律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "CosmicExpression_Mixed": {
-        "keywords": [
-            "大格蕾修混合流",
-            "大格蕾修乐土3",
-            "大格蕾修乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Vicissitude_Branch": {
-        "keywords": [
-            "崩符乐土2",
-            "崩符乐土",
-            "崩落华乐土2",
-            "崩落华乐土",
-            "火符乐土2",
-            "火符乐土",
-            "鸡妈妈乐土2",
-            "鸡妈妈乐土",
-            "崩符蓄力流",
-            "火符蓄力流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Vicissitude_Attack": {
-        "keywords": [
-            "崩符乐土",
-            "崩落华乐土",
-            "火符乐土",
-            "鸡妈妈乐土",
-            "崩符普攻流",
-            "火符普攻流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Senadina": {
-        "keywords": [
-            "希娜狄雅乐土",
-            "希娜乐土",
-            "希娜婶婶乐土",
-            "曙光乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Coralie": {
-        "keywords": [
-            "科拉莉乐土",
-            "重机乐土",
-            "火锤乐土",
-            "拉莉乐土",
-            "臭鼬乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Coralie_AstralRing": {
-        "keywords": [
-            "科拉莉乐土2",
-            "科拉莉乐土",
-            "重机乐土2",
-            "重机乐土",
-            "火锤乐土2",
-            "火锤乐土",
-            "拉莉乐土2",
-            "拉莉乐土",
-            "臭鼬乐土2",
-            "臭鼬乐土",
-            "科拉莉星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Thelema_AstralRing": {
-        "keywords": [
-            "瑟莉姆乐土2",
-            "瑟莉姆乐土",
-            "瑟小姐乐土2",
-            "瑟小姐乐土",
-            "瑟瑟乐土2",
-            "瑟瑟乐土",
-            "瑟莉姆星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Thelema": {
-        "keywords": [
-            "瑟莉姆乐土",
-            "瑟小姐乐土",
-            "瑟瑟乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Helia": {
-        "keywords": [
-            "赫丽娅乐土",
-            "巡矢乐土",
-            "电弩乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Helia_AstralRing": {
-        "keywords": [
-            "赫丽娅乐土2",
-            "赫丽娅乐土",
-            "巡矢乐土2",
-            "巡矢乐土",
-            "电弩乐土2",
-            "电弩乐土",
-            "赫丽娅星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Lantern": {
-        "keywords": [
-            "莎芙莱乐土",
-            "灯姐乐土",
-            "灯乐土",
-            "老灯乐土",
-            "发光蘑菇头乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Lantern_AstralRing": {
-        "keywords": [
-            "莎芙莱乐土2",
-            "莎芙莱乐土",
-            "灯姐乐土2",
-            "灯姐乐土",
-            "灯乐土2",
-            "灯乐土",
-            "老灯乐土2",
-            "老灯乐土",
-            "发光蘑菇头乐土2",
-            "发光蘑菇头乐土",
-            "灯姐星环流",
-            "莎芙莱星环流",
-            "灯星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Songque": {
-        "keywords": [
-            "松雀乐土",
-            "松雀奶奶乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Songque_AstralRing": {
-        "keywords": [
-            "松雀乐土2",
-            "松雀乐土",
-            "松雀奶奶乐土2",
-            "松雀奶奶乐土",
-            "松雀星环流",
-            "松雀奶奶星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Theresa_Sleep": {
-        "keywords": [
-            "德丽莎乐土",
-            "德丽傻乐土",
-            "雷傻乐土",
-            "量子傻乐土",
-            "德丽莎睡觉流",
-            "德丽傻睡觉流",
-            "德莉傻乐土",
-            "德莉莎乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Theresa_AstralRing": {
-        "keywords": [
-            "德丽莎乐土2",
-            "德丽莎乐土",
-            "德丽傻乐土2",
-            "德丽傻乐土",
-            "雷傻乐土2",
-            "雷傻乐土",
-            "量子傻乐土2",
-            "量子傻乐土",
-            "德丽莎星环流",
-            "德丽傻星环流",
-            "德莉傻乐土2",
-            "德莉傻乐土",
-            "德莉莎乐土2",
-            "德莉莎乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Vita": {
-        "keywords": [
-            "薇塔乐土",
-            "坏女人乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Vita_AstralRing": {
-        "keywords": [
-            "薇塔乐土2",
-            "薇塔乐土",
-            "薇塔星环流",
-            "坏女人乐土2",
-            "坏女人乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Sparkle": {
-        "keywords": [
-            "花火乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Sparkle_AstralRing": {
-        "keywords": [
-            "花火乐土2",
-            "花火乐土",
-            "花火星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Durandal_TakeWalk": {
-        "keywords": [
-            "小呆鹅乐土",
-            "迷你鹅乐土",
-            "小呆鹅逛街流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Durandal_Branch": {
-        "keywords": [
-            "小呆鹅乐土2",
-            "小呆鹅乐土",
-            "迷你鹅乐土2",
-            "迷你鹅乐土",
-            "小呆鹅蓄力流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Human_AstralRing": {
-        "keywords": [
-            "人律星环流",
-            "人律乐土3",
-            "人律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Kiana_Jump": {
-        "keywords": [
-            "琪亚娜乐土",
-            "琪天大圣乐土",
-            "琪亚娜跳鼓流",
-            "琪天大圣跳鼓流",
-            "星琪乐土",
-            "大懒猫乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Kiana_Attack": {
-        "keywords": [
-            "琪亚娜乐土2",
-            "琪亚娜乐土",
-            "琪天大圣乐土2",
-            "琪天大圣乐土",
-            "琪亚娜普攻流",
-            "琪天大圣普攻流",
-            "星琪乐土2",
-            "星琪乐土",
-            "大懒猫乐土2",
-            "大懒猫乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "PeregrineSword": {
-        "keywords": [
-            "李素裳乐土2",
-            "李素裳乐土",
-            "一客逍游乐土",
-            "李大枕头乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "PeregrineSword_AstralRing": {
-        "keywords": [
-            "李素裳乐土3",
-            "李素裳乐土",
-            "李素裳星环流",
-            "一客逍游乐土2",
-            "一客逍游乐土",
-            "李大枕头乐土2",
-            "李大枕头乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "CoralieDragon": {
-        "keywords": [
-            "科拉莉乐土3",
-            "科拉莉乐土",
-            "龙科乐土",
-            "魔龙乐土",
-            "小龙女乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "CoralieDragon_AstralRing": {
-        "keywords": [
-            "科拉莉乐土4",
-            "科拉莉乐土",
-            "龙科星环流",
-            "龙科乐土2",
-            "龙科乐土",
-            "魔龙星环流",
-            "小龙女星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "HeliaReborn": {
-        "keywords": [
-            "赫丽娅乐土3",
-            "赫丽娅乐土",
-            "机赫乐土",
-            "龙骑士乐土",
-            "s赫乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "HeliaReborn_AstralRing": {
-        "keywords": [
-            "赫丽娅乐土4",
-            "赫丽娅乐土",
-            "机赫星环流",
-            "龙骑士星环流",
-            "s赫星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rebirth_AstralRing": {
-        "keywords": [
-            "死律乐土5",
-            "死律乐土",
-            "死律星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rebirth": {
-        "keywords": [
-            "死律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "LoveELF": {
-        "keywords": [
-            "爱愿妖精乐土",
-            "爱愿乐土",
-            "爱神乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "LoveELF_AstralRing": {
-        "keywords": [
-            "爱愿妖精乐土2",
-            "爱愿妖精乐土",
-            "爱愿乐土2",
-            "爱愿乐土",
-            "爱神乐土2",
-            "爱神乐土",
-            "爱愿星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rita_MissEspionage": {
-        "keywords": [
-            "虚塔乐土",
-            "特丽乐土",
-            "色律乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Rita_MissEspionage_AstralRing": {
-        "keywords": [
-            "虚塔乐土2",
-            "虚塔乐土",
-            "特丽乐土2",
-            "特丽乐土",
-            "色律乐土2",
-            "色律乐土",
-            "特丽星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Mei_DawnbearingCrescent": {
-        "keywords": [
-            "星芽乐土",
-            "新芽乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "Mei_DawnbearingCrescent_AstralRing": {
-        "keywords": [
-            "星芽乐土2",
-            "星芽乐土",
-            "新芽乐土2",
-            "新芽乐土",
-            "星芽星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "TheresaLuna": {
-        "keywords": [
-            "大月下乐土"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
-    },
-    "TheresaLuna_AstralRing": {
-        "keywords": [
-            "大月下乐土2",
-            "大月下乐土",
-            "大月下星环流"
-        ],
-        "last_updated": "2026-04-06T16:58:02+00:00"
+    "schema_version": 1,
+    "generated_at": "2026-05-13T01:37:15.031Z",
+    "resources": {
+        "Anchora": {
+            "image": "data/Anchora.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Bladestrike": {
+            "image": "data/Bladestrike.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Cabbage": {
+            "image": "data/Cabbage.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Carol": {
+            "image": "data/Carol.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Coralie_AstralRing": {
+            "image": "data/Coralie_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Coralie": {
+            "image": "data/Coralie.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "CoralieDragon_AstralRing": {
+            "image": "data/CoralieDragon_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "CoralieDragon": {
+            "image": "data/CoralieDragon.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "CosmicExpression_Attack": {
+            "image": "data/CosmicExpression_Attack.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "CosmicExpression_Mixed": {
+            "image": "data/CosmicExpression_Mixed.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "CosmicExpression_Parry": {
+            "image": "data/CosmicExpression_Parry.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Delta": {
+            "image": "data/Delta.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Disciplinary": {
+            "image": "data/Disciplinary.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Dreamweaver_Weapon": {
+            "image": "data/Dreamweaver_Weapon.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Dreamweaver": {
+            "image": "data/Dreamweaver.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Durandal_Branch": {
+            "image": "data/Durandal_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Durandal_TakeWalk": {
+            "image": "data/Durandal_TakeWalk.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Eclipse_Branch": {
+            "image": "data/Eclipse_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Eclipse": {
+            "image": "data/Eclipse.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Elysia": {
+            "image": "data/Elysia.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Excelsis": {
+            "image": "data/Excelsis.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Felis": {
+            "image": "data/Felis.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Finally_Branch": {
+            "image": "data/Finally_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Finally": {
+            "image": "data/Finally.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "First_Branch": {
+            "image": "data/First_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "First": {
+            "image": "data/First.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Fischl": {
+            "image": "data/Fischl.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Flamescion": {
+            "image": "data/Flamescion.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Gloria": {
+            "image": "data/Gloria.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Golden": {
+            "image": "data/Golden.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Helia_AstralRing": {
+            "image": "data/Helia_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Helia": {
+            "image": "data/Helia.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "HeliaReborn_AstralRing": {
+            "image": "data/HeliaReborn_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "HeliaReborn": {
+            "image": "data/HeliaReborn.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Helical": {
+            "image": "data/Helical.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Human_AstralRing": {
+            "image": "data/Human_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Human_Branch": {
+            "image": "data/Human_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Human": {
+            "image": "data/Human.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Kallen": {
+            "image": "data/Kallen.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Kiana_Attack": {
+            "image": "data/Kiana_Attack.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Kiana_Jump": {
+            "image": "data/Kiana_Jump.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Lantern_AstralRing": {
+            "image": "data/Lantern_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Lantern": {
+            "image": "data/Lantern.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Lnfinite": {
+            "image": "data/Lnfinite.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "LoveELF_AstralRing": {
+            "image": "data/LoveELF_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "LoveELF": {
+            "image": "data/LoveELF.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "LunaKindred": {
+            "image": "data/LunaKindred.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Mei_DawnbearingCrescent_AstralRing": {
+            "image": "data/Mei_DawnbearingCrescent_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Mei_DawnbearingCrescent": {
+            "image": "data/Mei_DawnbearingCrescent.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Moment": {
+            "image": "data/Moment.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Oven": {
+            "image": "data/Oven.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Palatinus": {
+            "image": "data/Palatinus.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "PeregrineSword_AstralRing": {
+            "image": "data/PeregrineSword_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "PeregrineSword": {
+            "image": "data/PeregrineSword.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Raven": {
+            "image": "data/Raven.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Reason": {
+            "image": "data/Reason.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rebirth_AstralRing": {
+            "image": "data/Rebirth_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rebirth_Death": {
+            "image": "data/Rebirth_Death.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rebirth_Life": {
+            "image": "data/Rebirth_Life.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rebirth_Swap": {
+            "image": "data/Rebirth_Swap.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rebirth": {
+            "image": "data/Rebirth.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Refrigerator": {
+            "image": "data/Refrigerator.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rita_MissEspionage_AstralRing": {
+            "image": "data/Rita_MissEspionage_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rita_MissEspionage": {
+            "image": "data/Rita_MissEspionage.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Rosemary": {
+            "image": "data/Rosemary.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Senadina": {
+            "image": "data/Senadina.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Sentience_brick": {
+            "image": "data/Sentience_brick.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Sentience_HoeFlow": {
+            "image": "data/Sentience_HoeFlow.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Sentience": {
+            "image": "data/Sentience.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Serenade": {
+            "image": "data/Serenade.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "ShadowKnight": {
+            "image": "data/ShadowKnight.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "ShigureKira_Branch": {
+            "image": "data/ShigureKira_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "ShigureKira": {
+            "image": "data/ShigureKira.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Silverwing_AstralRing": {
+            "image": "data/Silverwing_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Silverwing": {
+            "image": "data/Silverwing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Sirin_Attack": {
+            "image": "data/Sirin_Attack.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Sirin_Branch": {
+            "image": "data/Sirin_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Songque_AstralRing": {
+            "image": "data/Songque_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Songque": {
+            "image": "data/Songque.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Sparkle_AstralRing": {
+            "image": "data/Sparkle_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Sparkle": {
+            "image": "data/Sparkle.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Starchasm": {
+            "image": "data/Starchasm.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Starry": {
+            "image": "data/Starry.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Susana": {
+            "image": "data/Susana.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Susang": {
+            "image": "data/Susang.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "TerminalAide0017": {
+            "image": "data/TerminalAide0017.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Thelema_AstralRing": {
+            "image": "data/Thelema_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Thelema": {
+            "image": "data/Thelema.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Theresa_AstralRing": {
+            "image": "data/Theresa_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Theresa_Sleep": {
+            "image": "data/Theresa_Sleep.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "TheresaLuna_AstralRing": {
+            "image": "data/TheresaLuna_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "TheresaLuna_Attack": {
+            "image": "data/TheresaLuna_Attack.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "TheresaLuna_Weapon": {
+            "image": "data/TheresaLuna_Weapon.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "TheresaLuna": {
+            "image": "data/TheresaLuna.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Thunder_Attack": {
+            "image": "data/Thunder_Attack.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Thunder_Punishment": {
+            "image": "data/Thunder_Punishment.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Thunder": {
+            "image": "data/Thunder.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Truth_Weapon": {
+            "image": "data/Truth_Weapon.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Truth": {
+            "image": "data/Truth.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Twilight": {
+            "image": "data/Twilight.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "TwinSeele": {
+            "image": "data/TwinSeele.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Vicissitude_Attack": {
+            "image": "data/Vicissitude_Attack.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Vicissitude_Branch": {
+            "image": "data/Vicissitude_Branch.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Vita_AstralRing": {
+            "image": "data/Vita_AstralRing.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Vita": {
+            "image": "data/Vita.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Void_Skill": {
+            "image": "data/Void_Skill.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        },
+        "Void": {
+            "image": "data/Void.jpg",
+            "last_updated": "2026-04-29T16:09:32+08:00"
+        }
+    },
+    "keywords": {
+        "0017乐土": [
+            "TerminalAide0017"
+        ],
+        "阿波尼亚乐土": [
+            "Disciplinary"
+        ],
+        "爱酱乐土": [
+            "Cabbage"
+        ],
+        "爱莉乐土": [
+            "Elysia"
+        ],
+        "爱莉希雅乐土": [
+            "Elysia"
+        ],
+        "爱律乐土": [
+            "Human",
+            "Human_Branch"
+        ],
+        "爱律乐土2": [
+            "Human_Branch"
+        ],
+        "爱神乐土": [
+            "LoveELF",
+            "LoveELF_AstralRing"
+        ],
+        "爱神乐土2": [
+            "LoveELF_AstralRing"
+        ],
+        "爱衣乐土": [
+            "Cabbage"
+        ],
+        "爱愿乐土": [
+            "LoveELF",
+            "LoveELF_AstralRing"
+        ],
+        "爱愿乐土2": [
+            "LoveELF_AstralRing"
+        ],
+        "爱愿星环流": [
+            "LoveELF_AstralRing"
+        ],
+        "爱愿妖精乐土": [
+            "LoveELF",
+            "LoveELF_AstralRing"
+        ],
+        "爱愿妖精乐土2": [
+            "LoveELF_AstralRing"
+        ],
+        "八重樱乐土": [
+            "Moment"
+        ],
+        "包菜乐土": [
+            "Cabbage"
+        ],
+        "崩符乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude_Branch"
+        ],
+        "崩符乐土2": [
+            "Vicissitude_Branch"
+        ],
+        "崩符普攻流": [
+            "Vicissitude_Attack"
+        ],
+        "崩符蓄力流": [
+            "Vicissitude_Branch"
+        ],
+        "崩落华乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude_Branch"
+        ],
+        "崩落华乐土2": [
+            "Vicissitude_Branch"
+        ],
+        "冰八乐土": [
+            "Moment"
+        ],
+        "冰卡乐土": [
+            "Serenade"
+        ],
+        "冰塔乐土": [
+            "Refrigerator"
+        ],
+        "冰希乐土": [
+            "Starchasm"
+        ],
+        "冰箱乐土": [
+            "Refrigerator"
+        ],
+        "车车乐土": [
+            "Reason"
+        ],
+        "臭鼬乐土": [
+            "Coralie",
+            "Coralie_AstralRing"
+        ],
+        "臭鼬乐土2": [
+            "Coralie_AstralRing"
+        ],
+        "次生银翼乐土": [
+            "Silverwing"
+        ],
+        "大格蕾修弹反流": [
+            "CosmicExpression_Parry"
+        ],
+        "大格蕾修混合流": [
+            "CosmicExpression_Mixed"
+        ],
+        "大格蕾修乐土": [
+            "CosmicExpression_Attack",
+            "CosmicExpression_Mixed",
+            "CosmicExpression_Parry"
+        ],
+        "大格蕾修乐土2": [
+            "CosmicExpression_Attack"
+        ],
+        "大格蕾修乐土3": [
+            "CosmicExpression_Mixed"
+        ],
+        "大格蕾修普攻流": [
+            "CosmicExpression_Attack"
+        ],
+        "大懒猫乐土": [
+            "Kiana_Attack",
+            "Kiana_Jump"
+        ],
+        "大懒猫乐土2": [
+            "Kiana_Attack"
+        ],
+        "大鸭鸭乐土": [
+            "Silverwing",
+            "Silverwing_AstralRing"
+        ],
+        "大鸭鸭乐土2": [
+            "Silverwing_AstralRing"
+        ],
+        "大鸭鸭星环流": [
+            "Silverwing_AstralRing"
+        ],
+        "大月下乐土": [
+            "TheresaLuna",
+            "TheresaLuna_AstralRing"
+        ],
+        "大月下乐土2": [
+            "TheresaLuna_AstralRing"
+        ],
+        "大月下普攻流": [
+            "TheresaLuna_Attack"
+        ],
+        "大月下武器流": [
+            "TheresaLuna_Weapon"
+        ],
+        "大月下星环流": [
+            "TheresaLuna_AstralRing"
+        ],
+        "呆鹅乐土": [
+            "Excelsis"
+        ],
+        "德尔塔乐土": [
+            "Delta"
+        ],
+        "德丽莎乐土": [
+            "Theresa_AstralRing",
+            "Theresa_Sleep"
+        ],
+        "德丽莎乐土2": [
+            "Theresa_AstralRing"
+        ],
+        "德丽莎睡觉流": [
+            "Theresa_Sleep"
+        ],
+        "德丽莎星环流": [
+            "Theresa_AstralRing"
+        ],
+        "德丽傻乐土": [
+            "Theresa_AstralRing",
+            "Theresa_Sleep"
+        ],
+        "德丽傻乐土2": [
+            "Theresa_AstralRing"
+        ],
+        "德丽傻睡觉流": [
+            "Theresa_Sleep"
+        ],
+        "德丽傻星环流": [
+            "Theresa_AstralRing"
+        ],
+        "德莉莎乐土": [
+            "Theresa_AstralRing",
+            "Theresa_Sleep"
+        ],
+        "德莉莎乐土2": [
+            "Theresa_AstralRing"
+        ],
+        "德莉傻乐土": [
+            "Theresa_AstralRing",
+            "Theresa_Sleep"
+        ],
+        "德莉傻乐土2": [
+            "Theresa_AstralRing"
+        ],
+        "灯姐乐土": [
+            "Lantern",
+            "Lantern_AstralRing"
+        ],
+        "灯姐乐土2": [
+            "Lantern_AstralRing"
+        ],
+        "灯姐星环流": [
+            "Lantern_AstralRing"
+        ],
+        "灯乐土": [
+            "Lantern",
+            "Lantern_AstralRing"
+        ],
+        "灯乐土2": [
+            "Lantern_AstralRing"
+        ],
+        "灯星环流": [
+            "Lantern_AstralRing"
+        ],
+        "电弩乐土": [
+            "Helia",
+            "Helia_AstralRing"
+        ],
+        "电弩乐土2": [
+            "Helia_AstralRing"
+        ],
+        "凋换流乐土": [
+            "Rebirth_Swap"
+        ],
+        "渡鸦乐土": [
+            "Raven"
+        ],
+        "发光蘑菇头乐土": [
+            "Lantern",
+            "Lantern_AstralRing"
+        ],
+        "发光蘑菇头乐土2": [
+            "Lantern_AstralRing"
+        ],
+        "繁星乐土": [
+            "Starry"
+        ],
+        "菲利丝乐土": [
+            "Felis"
+        ],
+        "菲谢尔乐土": [
+            "Fischl"
+        ],
+        "粉毛乐土": [
+            "Delta"
+        ],
+        "格蕾修乐土": [
+            "Starry"
+        ],
+        "怪盗乐土": [
+            "Serenade"
+        ],
+        "河豚乐土": [
+            "Sirin_Attack",
+            "Sirin_Branch"
+        ],
+        "河豚乐土2": [
+            "Sirin_Attack"
+        ],
+        "赫丽娅乐土": [
+            "Helia",
+            "Helia_AstralRing",
+            "HeliaReborn",
+            "HeliaReborn_AstralRing"
+        ],
+        "赫丽娅乐土2": [
+            "Helia_AstralRing"
+        ],
+        "赫丽娅乐土3": [
+            "HeliaReborn"
+        ],
+        "赫丽娅乐土4": [
+            "HeliaReborn_AstralRing"
+        ],
+        "赫丽娅星环流": [
+            "Helia_AstralRing"
+        ],
+        "黑希乐土": [
+            "TwinSeele"
+        ],
+        "花火乐土": [
+            "Sparkle",
+            "Sparkle_AstralRing"
+        ],
+        "花火乐土2": [
+            "Sparkle_AstralRing"
+        ],
+        "花火星环流": [
+            "Sparkle_AstralRing"
+        ],
+        "坏女人乐土": [
+            "Vita",
+            "Vita_AstralRing"
+        ],
+        "坏女人乐土2": [
+            "Vita_AstralRing"
+        ],
+        "皇女乐土": [
+            "Fischl"
+        ],
+        "黄金乐土": [
+            "Golden"
+        ],
+        "绘世乐土": [
+            "Starry"
+        ],
+        "火锤乐土": [
+            "Coralie",
+            "Coralie_AstralRing"
+        ],
+        "火锤乐土2": [
+            "Coralie_AstralRing"
+        ],
+        "火符乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude_Branch"
+        ],
+        "火符乐土2": [
+            "Vicissitude_Branch"
+        ],
+        "火符普攻流": [
+            "Vicissitude_Attack"
+        ],
+        "火符蓄力流": [
+            "Vicissitude_Branch"
+        ],
+        "火塔乐土": [
+            "Oven"
+        ],
+        "机八乐土": [
+            "Moment"
+        ],
+        "机赫乐土": [
+            "HeliaReborn"
+        ],
+        "机赫星环流": [
+            "HeliaReborn_AstralRing"
+        ],
+        "鸡妈妈乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude_Branch"
+        ],
+        "鸡妈妈乐土2": [
+            "Vicissitude_Branch"
+        ],
+        "姬子乐土": [
+            "Eclipse"
+        ],
+        "姬子蓄力流": [
+            "Eclipse_Branch"
+        ],
+        "结命流乐土": [
+            "Rebirth_Death"
+        ],
+        "戒律乐土": [
+            "Disciplinary"
+        ],
+        "今样乐土": [
+            "Kallen"
+        ],
+        "卡莲乐土": [
+            "Kallen"
+        ],
+        "卡萝尔乐土": [
+            "Carol"
+        ],
+        "烤箱乐土": [
+            "Oven"
+        ],
+        "科拉莉乐土": [
+            "Coralie",
+            "Coralie_AstralRing",
+            "CoralieDragon",
+            "CoralieDragon_AstralRing"
+        ],
+        "科拉莉乐土2": [
+            "Coralie_AstralRing"
+        ],
+        "科拉莉乐土3": [
+            "CoralieDragon"
+        ],
+        "科拉莉乐土4": [
+            "CoralieDragon_AstralRing"
+        ],
+        "科拉莉星环流": [
+            "Coralie_AstralRing"
+        ],
+        "空律大招流": [
+            "Void_Skill"
+        ],
+        "空律乐土": [
+            "Void"
+        ],
+        "拉莉乐土": [
+            "Coralie",
+            "Coralie_AstralRing"
+        ],
+        "拉莉乐土2": [
+            "Coralie_AstralRing"
+        ],
+        "老灯乐土": [
+            "Lantern",
+            "Lantern_AstralRing"
+        ],
+        "老灯乐土2": [
+            "Lantern_AstralRing"
+        ],
+        "雷律乐土": [
+            "Thunder",
+            "Thunder_Attack",
+            "Thunder_Punishment"
+        ],
+        "雷律乐土2": [
+            "Thunder_Punishment"
+        ],
+        "雷律乐土3": [
+            "Thunder_Attack"
+        ],
+        "雷律平A流": [
+            "Thunder_Attack"
+        ],
+        "雷律天罚流": [
+            "Thunder_Punishment"
+        ],
+        "雷傻乐土": [
+            "Theresa_AstralRing",
+            "Theresa_Sleep"
+        ],
+        "雷傻乐土2": [
+            "Theresa_AstralRing"
+        ],
+        "李大枕头乐土": [
+            "PeregrineSword",
+            "PeregrineSword_AstralRing"
+        ],
+        "李大枕头乐土2": [
+            "PeregrineSword_AstralRing"
+        ],
+        "李素裳乐土": [
+            "PeregrineSword",
+            "PeregrineSword_AstralRing",
+            "Susang"
+        ],
+        "李素裳乐土2": [
+            "PeregrineSword"
+        ],
+        "李素裳乐土3": [
+            "PeregrineSword_AstralRing"
+        ],
+        "李素裳星环流": [
+            "PeregrineSword_AstralRing"
+        ],
+        "理律乐土": [
+            "Reason"
+        ],
+        "量子傻乐土": [
+            "Theresa_AstralRing",
+            "Theresa_Sleep"
+        ],
+        "量子傻乐土2": [
+            "Theresa_AstralRing"
+        ],
+        "龙科乐土": [
+            "CoralieDragon",
+            "CoralieDragon_AstralRing"
+        ],
+        "龙科乐土2": [
+            "CoralieDragon_AstralRing"
+        ],
+        "龙科星环流": [
+            "CoralieDragon_AstralRing"
+        ],
+        "龙骑士乐土": [
+            "HeliaReborn"
+        ],
+        "龙骑士星环流": [
+            "HeliaReborn_AstralRing"
+        ],
+        "萝莎莉娅乐土": [
+            "Delta"
+        ],
+        "猫猫乐土": [
+            "Felis"
+        ],
+        "梅比乌斯乐土": [
+            "Lnfinite"
+        ],
+        "迷迭乐土": [
+            "Rosemary"
+        ],
+        "迷你鹅乐土": [
+            "Durandal_Branch",
+            "Durandal_TakeWalk"
+        ],
+        "迷你鹅乐土2": [
+            "Durandal_Branch"
+        ],
+        "摩托鸭乐土": [
+            "Reason"
+        ],
+        "魔龙乐土": [
+            "CoralieDragon"
+        ],
+        "魔龙星环流": [
+            "CoralieDragon_AstralRing"
+        ],
+        "奶希乐土": [
+            "Starchasm"
+        ],
+        "泥头鹅乐土": [
+            "Palatinus"
+        ],
+        "女王大招流": [
+            "Void_Skill"
+        ],
+        "女王乐土": [
+            "Void",
+            "Void_Skill"
+        ],
+        "女王乐土2": [
+            "Void_Skill"
+        ],
+        "帕朵菲利丝乐土": [
+            "Felis"
+        ],
+        "帕朵乐土": [
+            "Felis"
+        ],
+        "普罗米修斯乐土": [
+            "TerminalAide0017"
+        ],
+        "普鸭乐土": [
+            "TerminalAide0017"
+        ],
+        "琪天大圣乐土": [
+            "Kiana_Attack",
+            "Kiana_Jump"
+        ],
+        "琪天大圣乐土2": [
+            "Kiana_Attack"
+        ],
+        "琪天大圣普攻流": [
+            "Kiana_Attack"
+        ],
+        "琪天大圣跳鼓流": [
+            "Kiana_Jump"
+        ],
+        "琪亚娜乐土": [
+            "Kiana_Attack",
+            "Kiana_Jump"
+        ],
+        "琪亚娜乐土2": [
+            "Kiana_Attack"
+        ],
+        "琪亚娜普攻流": [
+            "Kiana_Attack"
+        ],
+        "琪亚娜跳鼓流": [
+            "Kiana_Jump"
+        ],
+        "绮罗分支流": [
+            "ShigureKira_Branch"
+        ],
+        "绮罗乐土": [
+            "ShigureKira",
+            "ShigureKira_Branch"
+        ],
+        "绮罗乐土2": [
+            "ShigureKira_Branch"
+        ],
+        "强袭乐土": [
+            "Bladestrike"
+        ],
+        "热砂乐土": [
+            "Susana"
+        ],
+        "人律纯蓄流": [
+            "Human_Branch"
+        ],
+        "人律乐土": [
+            "Human",
+            "Human_AstralRing",
+            "Human_Branch"
+        ],
+        "人律乐土2": [
+            "Human_Branch"
+        ],
+        "人律乐土3": [
+            "Human_AstralRing"
+        ],
+        "人律星环流": [
+            "Human_AstralRing"
+        ],
+        "人律蓄力": [
+            "Human_Branch"
+        ],
+        "人律蓄力流": [
+            "Human_Branch"
+        ],
+        "荣光乐土": [
+            "Gloria"
+        ],
+        "色律乐土": [
+            "Rita_MissEspionage",
+            "Rita_MissEspionage_AstralRing"
+        ],
+        "色律乐土2": [
+            "Rita_MissEspionage_AstralRing"
+        ],
+        "瑟莉姆乐土": [
+            "Thelema",
+            "Thelema_AstralRing"
+        ],
+        "瑟莉姆乐土2": [
+            "Thelema_AstralRing"
+        ],
+        "瑟莉姆星环流": [
+            "Thelema_AstralRing"
+        ],
+        "瑟瑟乐土": [
+            "Thelema",
+            "Thelema_AstralRing"
+        ],
+        "瑟瑟乐土2": [
+            "Thelema_AstralRing"
+        ],
+        "瑟小姐乐土": [
+            "Thelema",
+            "Thelema_AstralRing"
+        ],
+        "瑟小姐乐土2": [
+            "Thelema_AstralRing"
+        ],
+        "莎芙莱乐土": [
+            "Lantern",
+            "Lantern_AstralRing"
+        ],
+        "莎芙莱乐土2": [
+            "Lantern_AstralRing"
+        ],
+        "莎芙莱星环流": [
+            "Lantern_AstralRing"
+        ],
+        "蛇蛇乐土": [
+            "Lnfinite"
+        ],
+        "时雨乐土": [
+            "ShigureKira"
+        ],
+        "时雨绮罗大招流": [
+            "ShigureKira"
+        ],
+        "时雨绮罗分支流": [
+            "ShigureKira_Branch"
+        ],
+        "时雨绮罗乐土": [
+            "ShigureKira",
+            "ShigureKira_Branch"
+        ],
+        "时雨绮罗乐土2": [
+            "ShigureKira_Branch"
+        ],
+        "时雨绮罗蓄力流": [
+            "ShigureKira_Branch"
+        ],
+        "识宝乐土": [
+            "Sentience"
+        ],
+        "识律板砖流": [
+            "Sentience_brick"
+        ],
+        "识律锄地流": [
+            "Sentience_HoeFlow"
+        ],
+        "识律乐土": [
+            "Sentience",
+            "Sentience_brick",
+            "Sentience_HoeFlow"
+        ],
+        "识律乐土2": [
+            "Sentience_brick"
+        ],
+        "识律乐土3": [
+            "Sentience_HoeFlow"
+        ],
+        "始源大招流": [
+            "First"
+        ],
+        "始源大招流乐土": [
+            "First"
+        ],
+        "始源分支流": [
+            "First_Branch"
+        ],
+        "始源分支流乐土": [
+            "First_Branch"
+        ],
+        "始源乐土": [
+            "First",
+            "First_Branch"
+        ],
+        "始源乐土2": [
+            "First_Branch"
+        ],
+        "始源蓄力流": [
+            "First_Branch"
+        ],
+        "始源之律者乐土": [
+            "First_Branch"
+        ],
+        "曙光乐土": [
+            "Senadina"
+        ],
+        "双生乐土": [
+            "TwinSeele"
+        ],
+        "死律安愈流": [
+            "Rebirth_Death"
+        ],
+        "死律凋换流": [
+            "Rebirth_Swap"
+        ],
+        "死律凋换流乐土": [
+            "Rebirth_Swap"
+        ],
+        "死律结命流": [
+            "Rebirth_Death"
+        ],
+        "死律结命流乐土": [
+            "Rebirth_Death"
+        ],
+        "死律乐土": [
+            "Rebirth",
+            "Rebirth_AstralRing",
+            "Rebirth_Death",
+            "Rebirth_Life",
+            "Rebirth_Swap"
+        ],
+        "死律乐土2": [
+            "Rebirth_Death"
+        ],
+        "死律乐土3": [
+            "Rebirth_Life"
+        ],
+        "死律乐土4": [
+            "Rebirth_Swap"
+        ],
+        "死律乐土5": [
+            "Rebirth_AstralRing"
+        ],
+        "死律塑灵流": [
+            "Rebirth_Life"
+        ],
+        "死律塑灵流乐土": [
+            "Rebirth_Life"
+        ],
+        "死律星环流": [
+            "Rebirth_AstralRing"
+        ],
+        "死生之律者乐土": [
+            "Rebirth_Death",
+            "Rebirth_Life"
+        ],
+        "死生之律者乐土2": [
+            "Rebirth_Death"
+        ],
+        "松雀乐土": [
+            "Songque",
+            "Songque_AstralRing"
+        ],
+        "松雀乐土2": [
+            "Songque_AstralRing"
+        ],
+        "松雀奶奶乐土": [
+            "Songque",
+            "Songque_AstralRing"
+        ],
+        "松雀奶奶乐土2": [
+            "Songque_AstralRing"
+        ],
+        "松雀奶奶星环流": [
+            "Songque_AstralRing"
+        ],
+        "松雀星环流": [
+            "Songque_AstralRing"
+        ],
+        "苏莎娜乐土": [
+            "Susana"
+        ],
+        "苏珊娜乐土": [
+            "Susana"
+        ],
+        "塑灵流乐土": [
+            "Rebirth_Life"
+        ],
+        "特丽乐土": [
+            "Rita_MissEspionage",
+            "Rita_MissEspionage_AstralRing"
+        ],
+        "特丽乐土2": [
+            "Rita_MissEspionage_AstralRing"
+        ],
+        "特丽星环流": [
+            "Rita_MissEspionage_AstralRing"
+        ],
+        "天鹅乐土": [
+            "Palatinus"
+        ],
+        "天元乐土": [
+            "Palatinus"
+        ],
+        "薇塔乐土": [
+            "Vita",
+            "Vita_AstralRing"
+        ],
+        "薇塔乐土2": [
+            "Vita_AstralRing"
+        ],
+        "薇塔星环流": [
+            "Vita_AstralRing"
+        ],
+        "维尔微乐土": [
+            "Helical"
+        ],
+        "维尔薇乐土": [
+            "Helical"
+        ],
+        "舞卡乐土": [
+            "Serenade"
+        ],
+        "勿忘乐土": [
+            "Moment"
+        ],
+        "西琳分支流": [
+            "Sirin_Branch"
+        ],
+        "西琳乐土": [
+            "Sirin_Attack",
+            "Sirin_Branch"
+        ],
+        "西琳乐土2": [
+            "Sirin_Attack"
+        ],
+        "西琳普攻流": [
+            "Sirin_Attack"
+        ],
+        "西琳蓄力流": [
+            "Sirin_Branch"
+        ],
+        "希娜狄雅乐土": [
+            "Senadina"
+        ],
+        "希娜乐土": [
+            "Senadina"
+        ],
+        "希娜婶婶乐土": [
+            "Senadina"
+        ],
+        "小呆鹅逛街流": [
+            "Durandal_TakeWalk"
+        ],
+        "小呆鹅乐土": [
+            "Durandal_Branch",
+            "Durandal_TakeWalk"
+        ],
+        "小呆鹅乐土2": [
+            "Durandal_Branch"
+        ],
+        "小呆鹅蓄力流": [
+            "Durandal_Branch"
+        ],
+        "小龙女乐土": [
+            "CoralieDragon"
+        ],
+        "小龙女星环流": [
+            "CoralieDragon_AstralRing"
+        ],
+        "新芽乐土": [
+            "Mei_DawnbearingCrescent",
+            "Mei_DawnbearingCrescent_AstralRing"
+        ],
+        "新芽乐土2": [
+            "Mei_DawnbearingCrescent_AstralRing"
+        ],
+        "薪炎乐土": [
+            "Flamescion"
+        ],
+        "星棘乐土": [
+            "Oven"
+        ],
+        "星猫乐土": [
+            "Anchora"
+        ],
+        "星锚乐土": [
+            "Anchora"
+        ],
+        "星琪乐土": [
+            "Kiana_Attack",
+            "Kiana_Jump"
+        ],
+        "星琪乐土2": [
+            "Kiana_Attack"
+        ],
+        "星塔乐土": [
+            "Oven"
+        ],
+        "星芽乐土": [
+            "Mei_DawnbearingCrescent",
+            "Mei_DawnbearingCrescent_AstralRing"
+        ],
+        "星芽乐土2": [
+            "Mei_DawnbearingCrescent_AstralRing"
+        ],
+        "星芽星环流": [
+            "Mei_DawnbearingCrescent_AstralRing"
+        ],
+        "虚塔乐土": [
+            "Rita_MissEspionage",
+            "Rita_MissEspionage_AstralRing"
+        ],
+        "虚塔乐土2": [
+            "Rita_MissEspionage_AstralRing"
+        ],
+        "巡矢乐土": [
+            "Helia",
+            "Helia_AstralRing"
+        ],
+        "巡矢乐土2": [
+            "Helia_AstralRing"
+        ],
+        "炎律乐土": [
+            "Flamescion"
+        ],
+        "一客逍游乐土": [
+            "PeregrineSword",
+            "PeregrineSword_AstralRing"
+        ],
+        "一客逍游乐土2": [
+            "PeregrineSword_AstralRing"
+        ],
+        "伊甸乐土": [
+            "Golden"
+        ],
+        "幽兰戴尔乐土": [
+            "Excelsis"
+        ],
+        "羽兔大招流": [
+            "Dreamweaver"
+        ],
+        "羽兔乐土": [
+            "Dreamweaver",
+            "Dreamweaver_Weapon"
+        ],
+        "羽兔乐土2": [
+            "Dreamweaver"
+        ],
+        "羽兔投矛流": [
+            "Dreamweaver"
+        ],
+        "羽兔武器流": [
+            "Dreamweaver_Weapon"
+        ],
+        "羽兔摇旗流": [
+            "Dreamweaver_Weapon"
+        ],
+        "月痕乐土": [
+            "Susang"
+        ],
+        "月煌乐土": [
+            "Twilight"
+        ],
+        "月魂乐土": [
+            "Refrigerator"
+        ],
+        "月轮乐土": [
+            "ShadowKnight"
+        ],
+        "月魄乐土": [
+            "Excelsis"
+        ],
+        "月蚀乐土": [
+            "Eclipse"
+        ],
+        "月蚀蓄力流": [
+            "Eclipse_Branch"
+        ],
+        "月下乐土": [
+            "LunaKindred"
+        ],
+        "月下誓约乐土": [
+            "TheresaLuna_Weapon"
+        ],
+        "月下誓约普攻流": [
+            "TheresaLuna_Attack"
+        ],
+        "月下誓约武器流": [
+            "TheresaLuna_Weapon"
+        ],
+        "真红乐土": [
+            "Eclipse",
+            "Eclipse_Branch"
+        ],
+        "真红乐土2": [
+            "Eclipse_Branch"
+        ],
+        "真红蓄力流": [
+            "Eclipse_Branch"
+        ],
+        "真理乐土": [
+            "Truth",
+            "Truth_Weapon"
+        ],
+        "真理乐土2": [
+            "Truth_Weapon"
+        ],
+        "真理武器流": [
+            "Truth_Weapon"
+        ],
+        "真理之律者乐土": [
+            "Truth"
+        ],
+        "真理之律者武器流": [
+            "Truth_Weapon"
+        ],
+        "真律乐土": [
+            "Truth"
+        ],
+        "真律武器流": [
+            "Truth_Weapon"
+        ],
+        "真鸭乐土": [
+            "Truth"
+        ],
+        "真鸭武器流": [
+            "Truth_Weapon"
+        ],
+        "终末乐土": [
+            "TerminalAide0017"
+        ],
+        "终末协理乐土": [
+            "TerminalAide0017"
+        ],
+        "终焉分支流": [
+            "Finally_Branch"
+        ],
+        "终焉分支流乐土": [
+            "Finally_Branch"
+        ],
+        "终焉乐土": [
+            "Finally",
+            "Finally_Branch"
+        ],
+        "终焉乐土2": [
+            "Finally_Branch"
+        ],
+        "终焉蓄力流": [
+            "Finally_Branch"
+        ],
+        "终焉之律者乐土": [
+            "Finally"
+        ],
+        "重机乐土": [
+            "Coralie",
+            "Coralie_AstralRing"
+        ],
+        "重机乐土2": [
+            "Coralie_AstralRing"
+        ],
+        "猪咪乐土": [
+            "Felis"
+        ],
+        "紫苑乐土": [
+            "Twilight"
+        ],
+        "s赫乐土": [
+            "HeliaReborn"
+        ],
+        "s赫星环流": [
+            "HeliaReborn_AstralRing"
+        ],
+        "s卡乐土": [
+            "Serenade"
+        ],
+        "S卡乐土": [
+            "Serenade"
+        ],
+        "v2v乐土": [
+            "Helical"
+        ]
     }
 }
