@@ -1,434 +1,434 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-05-13T06:34:39.892Z",
+    "generated_at": "2026-05-13T07:41:02.400Z",
     "resources": {
         "Anchora": {
             "image": "data/Anchora.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-23T23:11:54+08:00"
         },
         "Bladestrike": {
             "image": "data/Bladestrike.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Cabbage": {
             "image": "data/Cabbage.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-11-05T11:20:48+08:00"
         },
         "Carol": {
             "image": "data/Carol.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-04-25T19:26:54+08:00"
         },
         "Coralie_AstralRing": {
             "image": "data/Coralie_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-12-10T16:05:17+08:00"
         },
         "Coralie": {
             "image": "data/Coralie.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "CoralieDragon_AstralRing": {
             "image": "data/CoralieDragon_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-10-31T08:38:13+08:00"
         },
         "CoralieDragon": {
             "image": "data/CoralieDragon.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-09-09T16:25:19+08:00"
         },
         "CosmicExpression_Attack": {
             "image": "data/CosmicExpression_Attack.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-11-14T10:24:19+08:00"
         },
         "CosmicExpression_Mixed": {
             "image": "data/CosmicExpression_Mixed.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-05-06T14:06:52+08:00"
         },
         "CosmicExpression_Parry": {
             "image": "data/CosmicExpression_Parry.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-11-14T10:24:19+08:00"
         },
         "Delta": {
             "image": "data/Delta.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-04-03T23:35:40+08:00"
         },
         "Disciplinary": {
             "image": "data/Disciplinary.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-18T15:01:27+08:00"
         },
         "Dreamweaver_Weapon": {
             "image": "data/Dreamweaver_Weapon.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-09-09T16:17:39+08:00"
         },
         "Dreamweaver": {
             "image": "data/Dreamweaver.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-04-25T19:26:54+08:00"
         },
         "Durandal_Branch": {
             "image": "data/Durandal_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-18T15:01:27+08:00"
         },
         "Durandal_TakeWalk": {
             "image": "data/Durandal_TakeWalk.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-04-05T04:50:40+08:00"
         },
         "Eclipse_Branch": {
             "image": "data/Eclipse_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-04-07T11:04:20+08:00"
         },
         "Eclipse": {
             "image": "data/Eclipse.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-10-31T08:38:13+08:00"
         },
         "Elysia": {
             "image": "data/Elysia.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-09-11T19:57:05+08:00"
         },
         "Excelsis": {
             "image": "data/Excelsis.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-18T15:01:27+08:00"
         },
         "Felis": {
             "image": "data/Felis.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-05-06T14:06:52+08:00"
         },
         "Finally_Branch": {
             "image": "data/Finally_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-01-10T07:33:52+08:00"
         },
         "Finally": {
             "image": "data/Finally.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-03-19T09:02:18+08:00"
         },
         "First_Branch": {
             "image": "data/First_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-12-10T16:05:17+08:00"
         },
         "First": {
             "image": "data/First.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-04-03T23:35:40+08:00"
         },
         "Fischl": {
             "image": "data/Fischl.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-03-13T23:29:37+08:00"
         },
         "Flamescion": {
             "image": "data/Flamescion.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-10-07T08:27:23+08:00"
         },
         "Gloria": {
             "image": "data/Gloria.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Golden": {
             "image": "data/Golden.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-06-26T20:44:06+08:00"
         },
         "Helia_AstralRing": {
             "image": "data/Helia_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Helia": {
             "image": "data/Helia.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-03-07T16:40:23+08:00"
         },
         "HeliaReborn_AstralRing": {
             "image": "data/HeliaReborn_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-10-07T08:27:23+08:00"
         },
         "HeliaReborn": {
             "image": "data/HeliaReborn.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-09-09T14:58:27+08:00"
         },
         "Helical": {
             "image": "data/Helical.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-07-10T22:34:16+08:00"
         },
         "Human_AstralRing": {
             "image": "data/Human_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Human_Branch": {
             "image": "data/Human_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-04-29T16:07:01+08:00"
         },
         "Human": {
             "image": "data/Human.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-18T15:01:27+08:00"
         },
         "Kallen": {
             "image": "data/Kallen.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Kiana_Attack": {
             "image": "data/Kiana_Attack.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-01-28T02:50:55+08:00"
         },
         "Kiana_Jump": {
             "image": "data/Kiana_Jump.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-02-24T21:29:54+08:00"
         },
         "Lantern_AstralRing": {
             "image": "data/Lantern_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-05-15T11:23:44+08:00"
         },
         "Lantern": {
             "image": "data/Lantern.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-04-05T04:50:40+08:00"
         },
         "Lnfinite": {
             "image": "data/Lnfinite.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-03-19T09:02:18+08:00"
         },
         "LoveELF_AstralRing": {
             "image": "data/LoveELF_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-03-19T09:02:18+08:00"
         },
         "LoveELF": {
             "image": "data/LoveELF.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-12-10T16:05:17+08:00"
         },
         "LunaKindred": {
             "image": "data/LunaKindred.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Mei_DawnbearingCrescent_AstralRing": {
             "image": "data/Mei_DawnbearingCrescent_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-03-19T09:02:18+08:00"
         },
         "Mei_DawnbearingCrescent": {
             "image": "data/Mei_DawnbearingCrescent.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-02-11T07:03:05+08:00"
         },
         "Moment": {
             "image": "data/Moment.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Oven": {
             "image": "data/Oven.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-02-11T07:03:05+08:00"
         },
         "Palatinus": {
             "image": "data/Palatinus.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "PeregrineSword_AstralRing": {
             "image": "data/PeregrineSword_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-04-29T16:07:01+08:00"
         },
         "PeregrineSword": {
             "image": "data/PeregrineSword.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-04-05T04:50:40+08:00"
         },
         "Raven": {
             "image": "data/Raven.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Reason": {
             "image": "data/Reason.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-04-07T11:04:20+08:00"
         },
         "Rebirth_AstralRing": {
             "image": "data/Rebirth_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Rebirth_Death": {
             "image": "data/Rebirth_Death.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-09-09T16:25:19+08:00"
         },
         "Rebirth_Life": {
             "image": "data/Rebirth_Life.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-08-21T16:01:07+08:00"
         },
         "Rebirth_Swap": {
             "image": "data/Rebirth_Swap.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-10-15T07:41:07+08:00"
         },
         "Rebirth": {
             "image": "data/Rebirth.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-10-31T08:38:13+08:00"
         },
         "Refrigerator": {
             "image": "data/Refrigerator.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Rita_MissEspionage_AstralRing": {
             "image": "data/Rita_MissEspionage_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Rita_MissEspionage": {
             "image": "data/Rita_MissEspionage.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-12-10T16:05:17+08:00"
         },
         "Rosemary": {
             "image": "data/Rosemary.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Senadina": {
             "image": "data/Senadina.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-18T15:01:27+08:00"
         },
         "Sentience_brick": {
             "image": "data/Sentience_brick.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-10-07T08:27:23+08:00"
         },
         "Sentience_HoeFlow": {
             "image": "data/Sentience_HoeFlow.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-04-29T16:07:01+08:00"
         },
         "Sentience": {
             "image": "data/Sentience.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-08-21T16:01:07+08:00"
         },
         "Serenade": {
             "image": "data/Serenade.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-08-21T16:01:07+08:00"
         },
         "ShadowKnight": {
             "image": "data/ShadowKnight.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-13T19:56:35+08:00"
         },
         "ShigureKira_Branch": {
             "image": "data/ShigureKira_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-08-21T16:01:07+08:00"
         },
         "ShigureKira": {
             "image": "data/ShigureKira.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-02-24T21:29:54+08:00"
         },
         "Silverwing_AstralRing": {
             "image": "data/Silverwing_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Silverwing": {
             "image": "data/Silverwing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Sirin_Attack": {
             "image": "data/Sirin_Attack.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-08-21T16:01:07+08:00"
         },
         "Sirin_Branch": {
             "image": "data/Sirin_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-18T15:01:27+08:00"
         },
         "Songque_AstralRing": {
             "image": "data/Songque_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-13T19:56:35+08:00"
         },
         "Songque": {
             "image": "data/Songque.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-07-30T08:39:52+08:00"
         },
         "Sparkle_AstralRing": {
             "image": "data/Sparkle_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-11-05T11:20:48+08:00"
         },
         "Sparkle": {
             "image": "data/Sparkle.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-11-05T11:20:48+08:00"
         },
         "Starchasm": {
             "image": "data/Starchasm.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-13T03:53:08+08:00"
         },
         "Starry": {
             "image": "data/Starry.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-09-09T16:25:19+08:00"
         },
         "Susana": {
             "image": "data/Susana.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-12-18T15:01:27+08:00"
         },
         "Susang": {
             "image": "data/Susang.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-07-30T08:39:52+08:00"
         },
         "TerminalAide0017": {
             "image": "data/TerminalAide0017.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-12-06T13:59:43+08:00"
         },
         "Thelema_AstralRing": {
             "image": "data/Thelema_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-05-06T14:06:52+08:00"
         },
         "Thelema": {
             "image": "data/Thelema.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Theresa_AstralRing": {
             "image": "data/Theresa_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-08-13T10:03:52+08:00"
         },
         "Theresa_Sleep": {
             "image": "data/Theresa_Sleep.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2024-08-13T10:03:52+08:00"
         },
         "TheresaLuna_AstralRing": {
             "image": "data/TheresaLuna_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "TheresaLuna_Attack": {
             "image": "data/TheresaLuna_Attack.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-01-10T07:33:52+08:00"
         },
         "TheresaLuna_Weapon": {
             "image": "data/TheresaLuna_Weapon.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-10-02T14:19:18+08:00"
         },
         "TheresaLuna": {
             "image": "data/TheresaLuna.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-02-11T07:03:05+08:00"
         },
         "Thunder_Attack": {
             "image": "data/Thunder_Attack.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Thunder_Punishment": {
             "image": "data/Thunder_Punishment.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Thunder": {
             "image": "data/Thunder.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Truth_Weapon": {
             "image": "data/Truth_Weapon.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-04-29T16:07:01+08:00"
         },
         "Truth": {
             "image": "data/Truth.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-04-03T23:35:40+08:00"
         },
         "Twilight": {
             "image": "data/Twilight.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "TwinSeele": {
             "image": "data/TwinSeele.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-06T16:29:07+08:00"
         },
         "Vicissitude_Attack": {
             "image": "data/Vicissitude_Attack.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-04-07T00:03:17+08:00"
         },
         "Vicissitude_Branch": {
             "image": "data/Vicissitude_Branch.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-03-19T09:02:18+08:00"
         },
         "Vita_AstralRing": {
             "image": "data/Vita_AstralRing.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2026-01-10T07:33:52+08:00"
         },
         "Vita": {
             "image": "data/Vita.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2025-10-07T08:27:23+08:00"
         },
         "Void_Skill": {
             "image": "data/Void_Skill.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-01-09T15:05:57+08:00"
         },
         "Void": {
             "image": "data/Void.jpg",
-            "last_updated": "2026-04-29T16:09:32+08:00"
+            "last_updated": "2023-08-02T10:58:18+08:00"
         }
     },
     "keywords": {
@@ -448,15 +448,15 @@
             "Elysia"
         ],
         "爱律乐土": [
-            "Human",
-            "Human_Branch"
+            "Human_Branch",
+            "Human"
         ],
         "爱律乐土2": [
             "Human_Branch"
         ],
         "爱神乐土": [
-            "LoveELF",
-            "LoveELF_AstralRing"
+            "LoveELF_AstralRing",
+            "LoveELF"
         ],
         "爱神乐土2": [
             "LoveELF_AstralRing"
@@ -465,8 +465,8 @@
             "Cabbage"
         ],
         "爱愿乐土": [
-            "LoveELF",
-            "LoveELF_AstralRing"
+            "LoveELF_AstralRing",
+            "LoveELF"
         ],
         "爱愿乐土2": [
             "LoveELF_AstralRing"
@@ -475,8 +475,8 @@
             "LoveELF_AstralRing"
         ],
         "爱愿妖精乐土": [
-            "LoveELF",
-            "LoveELF_AstralRing"
+            "LoveELF_AstralRing",
+            "LoveELF"
         ],
         "爱愿妖精乐土2": [
             "LoveELF_AstralRing"
@@ -542,8 +542,8 @@
             "CosmicExpression_Mixed"
         ],
         "大格蕾修乐土": [
-            "CosmicExpression_Attack",
             "CosmicExpression_Mixed",
+            "CosmicExpression_Attack",
             "CosmicExpression_Parry"
         ],
         "大格蕾修乐土2": [
@@ -556,8 +556,8 @@
             "CosmicExpression_Attack"
         ],
         "大懒猫乐土": [
-            "Kiana_Attack",
-            "Kiana_Jump"
+            "Kiana_Jump",
+            "Kiana_Attack"
         ],
         "大懒猫乐土2": [
             "Kiana_Attack"
@@ -573,8 +573,8 @@
             "Silverwing_AstralRing"
         ],
         "大月下乐土": [
-            "TheresaLuna",
-            "TheresaLuna_AstralRing"
+            "TheresaLuna_AstralRing",
+            "TheresaLuna"
         ],
         "大月下乐土2": [
             "TheresaLuna_AstralRing"
@@ -655,8 +655,8 @@
             "Lantern_AstralRing"
         ],
         "电弩乐土": [
-            "Helia",
-            "Helia_AstralRing"
+            "Helia_AstralRing",
+            "Helia"
         ],
         "电弩乐土2": [
             "Helia_AstralRing"
@@ -693,17 +693,17 @@
             "Serenade"
         ],
         "河豚乐土": [
-            "Sirin_Attack",
-            "Sirin_Branch"
+            "Sirin_Branch",
+            "Sirin_Attack"
         ],
         "河豚乐土2": [
             "Sirin_Attack"
         ],
         "赫丽娅乐土": [
-            "Helia",
             "Helia_AstralRing",
+            "HeliaReborn_AstralRing",
             "HeliaReborn",
-            "HeliaReborn_AstralRing"
+            "Helia"
         ],
         "赫丽娅乐土2": [
             "Helia_AstralRing"
@@ -731,8 +731,8 @@
             "Sparkle_AstralRing"
         ],
         "坏女人乐土": [
-            "Vita",
-            "Vita_AstralRing"
+            "Vita_AstralRing",
+            "Vita"
         ],
         "坏女人乐土2": [
             "Vita_AstralRing"
@@ -812,8 +812,8 @@
         "科拉莉乐土": [
             "Coralie",
             "Coralie_AstralRing",
-            "CoralieDragon",
-            "CoralieDragon_AstralRing"
+            "CoralieDragon_AstralRing",
+            "CoralieDragon"
         ],
         "科拉莉乐土2": [
             "Coralie_AstralRing"
@@ -872,15 +872,15 @@
             "Theresa_AstralRing"
         ],
         "李大枕头乐土": [
-            "PeregrineSword",
-            "PeregrineSword_AstralRing"
+            "PeregrineSword_AstralRing",
+            "PeregrineSword"
         ],
         "李大枕头乐土2": [
             "PeregrineSword_AstralRing"
         ],
         "李素裳乐土": [
-            "PeregrineSword",
             "PeregrineSword_AstralRing",
+            "PeregrineSword",
             "Susang"
         ],
         "李素裳乐土2": [
@@ -903,8 +903,8 @@
             "Theresa_AstralRing"
         ],
         "龙科乐土": [
-            "CoralieDragon",
-            "CoralieDragon_AstralRing"
+            "CoralieDragon_AstralRing",
+            "CoralieDragon"
         ],
         "龙科乐土2": [
             "CoralieDragon_AstralRing"
@@ -931,8 +931,8 @@
             "Rosemary"
         ],
         "迷你鹅乐土": [
-            "Durandal_Branch",
-            "Durandal_TakeWalk"
+            "Durandal_TakeWalk",
+            "Durandal_Branch"
         ],
         "迷你鹅乐土2": [
             "Durandal_Branch"
@@ -975,8 +975,8 @@
             "TerminalAide0017"
         ],
         "琪天大圣乐土": [
-            "Kiana_Attack",
-            "Kiana_Jump"
+            "Kiana_Jump",
+            "Kiana_Attack"
         ],
         "琪天大圣乐土2": [
             "Kiana_Attack"
@@ -988,8 +988,8 @@
             "Kiana_Jump"
         ],
         "琪亚娜乐土": [
-            "Kiana_Attack",
-            "Kiana_Jump"
+            "Kiana_Jump",
+            "Kiana_Attack"
         ],
         "琪亚娜乐土2": [
             "Kiana_Attack"
@@ -1020,9 +1020,9 @@
             "Human_Branch"
         ],
         "人律乐土": [
-            "Human",
             "Human_AstralRing",
-            "Human_Branch"
+            "Human_Branch",
+            "Human"
         ],
         "人律乐土2": [
             "Human_Branch"
@@ -1043,8 +1043,8 @@
             "Gloria"
         ],
         "色律乐土": [
-            "Rita_MissEspionage",
-            "Rita_MissEspionage_AstralRing"
+            "Rita_MissEspionage_AstralRing",
+            "Rita_MissEspionage"
         ],
         "色律乐土2": [
             "Rita_MissEspionage_AstralRing"
@@ -1115,9 +1115,9 @@
             "Sentience_HoeFlow"
         ],
         "识律乐土": [
-            "Sentience",
             "Sentience_brick",
-            "Sentience_HoeFlow"
+            "Sentience_HoeFlow",
+            "Sentience"
         ],
         "识律乐土2": [
             "Sentience_brick"
@@ -1138,8 +1138,8 @@
             "First_Branch"
         ],
         "始源乐土": [
-            "First",
-            "First_Branch"
+            "First_Branch",
+            "First"
         ],
         "始源乐土2": [
             "First_Branch"
@@ -1172,11 +1172,11 @@
             "Rebirth_Death"
         ],
         "死律乐土": [
-            "Rebirth",
             "Rebirth_AstralRing",
+            "Rebirth",
             "Rebirth_Death",
-            "Rebirth_Life",
-            "Rebirth_Swap"
+            "Rebirth_Swap",
+            "Rebirth_Life"
         ],
         "死律乐土2": [
             "Rebirth_Death"
@@ -1207,15 +1207,15 @@
             "Rebirth_Death"
         ],
         "松雀乐土": [
-            "Songque",
-            "Songque_AstralRing"
+            "Songque_AstralRing",
+            "Songque"
         ],
         "松雀乐土2": [
             "Songque_AstralRing"
         ],
         "松雀奶奶乐土": [
-            "Songque",
-            "Songque_AstralRing"
+            "Songque_AstralRing",
+            "Songque"
         ],
         "松雀奶奶乐土2": [
             "Songque_AstralRing"
@@ -1236,8 +1236,8 @@
             "Rebirth_Life"
         ],
         "特丽乐土": [
-            "Rita_MissEspionage",
-            "Rita_MissEspionage_AstralRing"
+            "Rita_MissEspionage_AstralRing",
+            "Rita_MissEspionage"
         ],
         "特丽乐土2": [
             "Rita_MissEspionage_AstralRing"
@@ -1252,8 +1252,8 @@
             "Palatinus"
         ],
         "薇塔乐土": [
-            "Vita",
-            "Vita_AstralRing"
+            "Vita_AstralRing",
+            "Vita"
         ],
         "薇塔乐土2": [
             "Vita_AstralRing"
@@ -1277,8 +1277,8 @@
             "Sirin_Branch"
         ],
         "西琳乐土": [
-            "Sirin_Attack",
-            "Sirin_Branch"
+            "Sirin_Branch",
+            "Sirin_Attack"
         ],
         "西琳乐土2": [
             "Sirin_Attack"
@@ -1302,8 +1302,8 @@
             "Durandal_TakeWalk"
         ],
         "小呆鹅乐土": [
-            "Durandal_Branch",
-            "Durandal_TakeWalk"
+            "Durandal_TakeWalk",
+            "Durandal_Branch"
         ],
         "小呆鹅乐土2": [
             "Durandal_Branch"
@@ -1318,8 +1318,8 @@
             "CoralieDragon_AstralRing"
         ],
         "新芽乐土": [
-            "Mei_DawnbearingCrescent",
-            "Mei_DawnbearingCrescent_AstralRing"
+            "Mei_DawnbearingCrescent_AstralRing",
+            "Mei_DawnbearingCrescent"
         ],
         "新芽乐土2": [
             "Mei_DawnbearingCrescent_AstralRing"
@@ -1337,8 +1337,8 @@
             "Anchora"
         ],
         "星琪乐土": [
-            "Kiana_Attack",
-            "Kiana_Jump"
+            "Kiana_Jump",
+            "Kiana_Attack"
         ],
         "星琪乐土2": [
             "Kiana_Attack"
@@ -1347,8 +1347,8 @@
             "Oven"
         ],
         "星芽乐土": [
-            "Mei_DawnbearingCrescent",
-            "Mei_DawnbearingCrescent_AstralRing"
+            "Mei_DawnbearingCrescent_AstralRing",
+            "Mei_DawnbearingCrescent"
         ],
         "星芽乐土2": [
             "Mei_DawnbearingCrescent_AstralRing"
@@ -1357,15 +1357,15 @@
             "Mei_DawnbearingCrescent_AstralRing"
         ],
         "虚塔乐土": [
-            "Rita_MissEspionage",
-            "Rita_MissEspionage_AstralRing"
+            "Rita_MissEspionage_AstralRing",
+            "Rita_MissEspionage"
         ],
         "虚塔乐土2": [
             "Rita_MissEspionage_AstralRing"
         ],
         "巡矢乐土": [
-            "Helia",
-            "Helia_AstralRing"
+            "Helia_AstralRing",
+            "Helia"
         ],
         "巡矢乐土2": [
             "Helia_AstralRing"
@@ -1374,8 +1374,8 @@
             "Flamescion"
         ],
         "一客逍游乐土": [
-            "PeregrineSword",
-            "PeregrineSword_AstralRing"
+            "PeregrineSword_AstralRing",
+            "PeregrineSword"
         ],
         "一客逍游乐土2": [
             "PeregrineSword_AstralRing"
@@ -1390,8 +1390,8 @@
             "Dreamweaver"
         ],
         "羽兔乐土": [
-            "Dreamweaver",
-            "Dreamweaver_Weapon"
+            "Dreamweaver_Weapon",
+            "Dreamweaver"
         ],
         "羽兔乐土2": [
             "Dreamweaver"
@@ -1449,8 +1449,8 @@
             "Eclipse_Branch"
         ],
         "真理乐土": [
-            "Truth",
-            "Truth_Weapon"
+            "Truth_Weapon",
+            "Truth"
         ],
         "真理乐土2": [
             "Truth_Weapon"

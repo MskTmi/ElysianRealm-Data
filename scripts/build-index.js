@@ -32,7 +32,7 @@ function getImagePath(id) {
 
 function getLastUpdated(relativeImagePath, absoluteImagePath) {
     try {
-        const output = execFileSync('git', ['log', '-1', '--format=%cI', '--', relativeImagePath], {
+        const output = execFileSync('git', ['log', '--follow', '--diff-filter=AM', '-1', '--format=%cI', '--', relativeImagePath], {
             cwd: rootDir,
             encoding: 'utf8'
         }).trim();
