@@ -1,3 +1,4 @@
+// 用于解析关键词 Issue 表单内容并创建或更新对应的 meta 文件。
 const fs = require('fs');
 const path = require('path');
 

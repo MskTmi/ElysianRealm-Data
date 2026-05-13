@@ -1,3 +1,4 @@
+// 用于将 master 的 data 图片同步到 legacy 分支目录，并覆盖同名旧图片。
 const fs = require('fs');
 const path = require('path');
 

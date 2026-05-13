@@ -1,3 +1,4 @@
+// 用于根据本次发布涉及的 meta 变更自动生成 Release 说明中的 RealmCommand 命令。
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');

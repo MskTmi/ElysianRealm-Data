@@ -1,3 +1,4 @@
+// 用于根据 data 和 meta 生成 dist/elysian-realm-index.json 运行时索引。
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
