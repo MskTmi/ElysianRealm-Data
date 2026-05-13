@@ -1,0 +1,111 @@
+name: Sync Meta From Issue
+
+on:
+    issues:
+        types:
+            - opened
+            - edited
+            - reopened
+            - labeled
+
+permissions:
+    contents: write
+    pull-requests: write
+    issues: write
+
+jobs:
+    sync-meta-from-issue:
+        if: >-
+            github.actor != 'github-actions[bot]' &&
+            contains(github.event.issue.labels.*.name, 'keyword') &&
+            (github.event.action != 'labeled' || github.event.label.name == 'keyword')
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Update meta from issue form
+              id: sync_meta
+              env:
+                  ISSUE_BODY: ${{ github.event.issue.body }}
+                  ISSUE_NUMBER: ${{ github.event.issue.number }}
+                  ISSUE_TITLE: ${{ github.event.issue.title }}
+              run: node scripts/upsert-meta-from-issue.js
+
+            - name: Rebuild dist index
+              run: node scripts/build-index.js
+
+            - name: Detect repository changes
+              id: changes
+              run: |
+                  if git diff --quiet -- meta dist; then
+                    echo "has_changes=false" >> "$GITHUB_OUTPUT"
+                  else
+                    echo "has_changes=true" >> "$GITHUB_OUTPUT"
+                  fi
+
+            - name: Create pull request
+              if: steps.changes.outputs.has_changes == 'true'
+              id: create_pr
+              uses: peter-evans/create-pull-request@v6
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  commit-message: "chore: sync meta from issue #${{ github.event.issue.number }}"
+                  branch: automation/issue-${{ github.event.issue.number }}-meta
+                  delete-branch: true
+                  title: "chore: sync ${{ steps.sync_meta.outputs.role }} meta from issue #${{ github.event.issue.number }}"
+                  body: |
+                      Source issue: #${{ github.event.issue.number }}
+
+                      This PR was generated from the keyword issue form and updates:
+                      - ${{ steps.sync_meta.outputs.meta_path }}
+                      - dist/elysian-realm-index.json
+                  add-paths: |
+                      ${{ steps.sync_meta.outputs.meta_path }}
+                      dist/elysian-realm-index.json
+
+            - name: Comment with pull request link
+              if: steps.changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number != ''
+              uses: actions/github-script@v7
+              with:
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  script: |
+                      await github.rest.issues.createComment({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: context.issue.number,
+                        body: `已根据该 Issue 生成自动更新 PR：#${{ steps.create_pr.outputs.pull-request-number }}`
+                      });
+
+            - name: Comment when nothing changed
+              if: steps.changes.outputs.has_changes == 'false'
+              uses: actions/github-script@v7
+              with:
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  script: |
+                      await github.rest.issues.createComment({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: context.issue.number,
+                        body: '未检测到新的 meta 或 dist 变更，本次未创建 PR。'
+                      });
+
+            - name: Comment when sync failed
+              if: failure()
+              uses: actions/github-script@v7
+              with:
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  script: |
+                      await github.rest.issues.createComment({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: context.issue.number,
+                        body: '自动同步 meta 失败，请检查角色 ID 是否对应现有图片文件，且关键词填写符合模板要求。'
+                      });
