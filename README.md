@@ -78,7 +78,7 @@ node scripts/build-index.js
 
 ## Legacy 兼容同步
 
-当 master 作为新结构主分支使用后，仓库可通过 [sync-legacy-data.yml](.github/workflows/sync-legacy-data.yml) 将 master/data 中的最新图片自动同步到 legacy 分支
+当 master 作为新结构主分支使用后，仓库可通过 [sync-legacy-data.yml](.github/workflows/sync-legacy-data.yml) 将 master/data 中的最新图片自动同步到 legacy 分支根目录
 
 ## 关键词匹配规则
 
