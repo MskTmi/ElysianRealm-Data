@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-05-13T07:44:08.094Z",
+    "generated_at": "2026-05-13T08:11:30.259Z",
     "resources": {
         "Anchora": {
             "image": "data/Anchora.jpg",
@@ -432,6 +432,12 @@
         }
     },
     "keywords": {
+        "```": [
+            "TheresaLuna"
+        ],
+        "```text": [
+            "TheresaLuna"
+        ],
         "0017乐土": [
             "TerminalAide0017"
         ],
@@ -1430,6 +1436,7 @@
             "LunaKindred"
         ],
         "月下誓约乐土": [
+            "TheresaLuna",
             "TheresaLuna_Weapon"
         ],
         "月下誓约普攻流": [
