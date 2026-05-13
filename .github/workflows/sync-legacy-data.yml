@@ -1,0 +1,70 @@
+name: Sync Legacy Data
+
+on:
+    push:
+        branches:
+            - master
+        paths:
+            - data/**
+            - scripts/sync-legacy-images.js
+            - .github/workflows/sync-legacy-data.yml
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    sync-legacy-data:
+        if: github.actor != 'github-actions[bot]'
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout master
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Check legacy branch
+              id: legacy_branch
+              run: |
+                  if git ls-remote --exit-code --heads origin legacy; then
+                    echo "exists=true" >> "$GITHUB_OUTPUT"
+                  else
+                    echo "exists=false" >> "$GITHUB_OUTPUT"
+                  fi
+
+            - name: Checkout legacy
+              if: steps.legacy_branch.outputs.exists == 'true'
+              uses: actions/checkout@v4
+              with:
+                  ref: legacy
+                  path: legacy
+                  fetch-depth: 0
+
+            - name: Setup Node.js
+              if: steps.legacy_branch.outputs.exists == 'true'
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Sync images to legacy
+              if: steps.legacy_branch.outputs.exists == 'true'
+              id: sync_legacy
+              env:
+                  SOURCE_DIR: ${{ github.workspace }}/data
+                  TARGET_DIR: ${{ github.workspace }}/legacy/data
+              run: node scripts/sync-legacy-images.js
+
+            - name: Commit synced images to legacy
+              if: steps.legacy_branch.outputs.exists == 'true' && steps.sync_legacy.outputs.synced_count != '0'
+              run: |
+                  cd legacy
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git add data
+                  git commit -m "chore: sync data images from master"
+                  git push origin HEAD:legacy
+
+            - name: Skip when legacy missing
+              if: steps.legacy_branch.outputs.exists != 'true'
+              run: echo "legacy branch does not exist yet; skipping sync"
