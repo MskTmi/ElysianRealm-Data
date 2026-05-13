@@ -8,6 +8,8 @@ on:
       - data/**
       - meta/**
       - scripts/build-index.js
+      - scripts/generate-release-body.js
+      - .github/workflows/release-package.yml
 jobs:
   release-package:
     name: Create Release Package
@@ -58,17 +60,11 @@ jobs:
       # 根据标签生成 Release 内容
       - name: Generate release content
         id: generate_content
-        run: |
-          if [[ "${{ steps.commit_info.outputs.message }}" == *v1 ]]; then
-            RELEASE_BODY="### 使用 \`/更新乐土攻略\` 后可直接复制下面命令添加 \`XX乐土\` 唤醒词\n\n"
-            RELEASE_BODY+=" - XX\n"
-            RELEASE_BODY+="\`/RealmCommand add ImageName XX乐土\`\n"
-            RELEASE_BODY+="\`/RealmCommand add ImageName_AstralRing XX乐土2,XX星环流\`\n\n"
-            RELEASE_BODY+="> 指令内容[请]阅读[README.md](https://github.com/MskTim/Bh3-ElysianRealm-Strategy/blob/master/README.md)"
-          else
-            RELEASE_BODY="> 推荐使用 \`/更新乐土攻略\` 指令获取攻略"
-          fi
-          echo -e "release_body<<EOF\n${RELEASE_BODY}\nEOF" >> $GITHUB_OUTPUT
+        env:
+          RELEASE_VERSION: ${{ steps.commit_info.outputs.message }}
+          BEFORE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: node scripts/generate-release-body.js
 
       # 创建 Release 草稿
       - name: Create release draft
