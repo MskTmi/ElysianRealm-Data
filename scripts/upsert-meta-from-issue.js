@@ -63,12 +63,25 @@ function requireSection(sections, name) {
     return value;
 }
 
+function unwrapCodeFence(raw) {
+    const normalized = raw.trim();
+    const fencedMatch = normalized.match(/^```[^\n]*\n([\s\S]*?)\n```$/);
+
+    if (fencedMatch) {
+        return fencedMatch[1];
+    }
+
+    return normalized;
+}
+
 function parseKeywords(raw) {
+    const normalized = unwrapCodeFence(raw);
+
     return [...new Set(
-        raw
+        normalized
             .split('\n')
             .map((item) => item.trim())
-            .filter(Boolean)
+            .filter((item) => item && !item.startsWith('```'))
     )];
 }
 
