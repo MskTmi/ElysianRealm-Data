@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-05-13T09:55:25.834Z",
+    "generated_at": "2026-05-14T07:33:26.421Z",
     "resources": {
         "Anchora": {
             "image": "data/Anchora.jpg",
@@ -1200,6 +1200,7 @@
             "Rebirth_AstralRing"
         ],
         "死生之律者乐土": [
+            "Rebirth",
             "Rebirth_Death",
             "Rebirth_Life"
         ],
