@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-05-13T07:44:08.094Z",
+    "generated_at": "2026-05-13T09:55:25.834Z",
     "resources": {
         "Anchora": {
             "image": "data/Anchora.jpg",
@@ -1430,6 +1430,7 @@
             "LunaKindred"
         ],
         "月下誓约乐土": [
+            "TheresaLuna",
             "TheresaLuna_Weapon"
         ],
         "月下誓约普攻流": [
