@@ -1,24 +1,25 @@
 name: 关键词提交
 description: 提交或补充角色关键词
-title: "[Keyword] "
+title: "[Keyword] 添加角色关键词"
 labels:
   - keyword
 body:
   - type: markdown
     attributes:
       value: |
-        请使用此模板提交角色关键词。
+        请使用此模板提交角色关键词
 
         提交前请先确认：
-        - 角色 ID 与 meta 目录中的文件名一致，例如 Human 对应 meta/Human.json。
-        - 关键词每行一个，避免把多个词写在同一行。
-        - 若关键词可能与其他角色重合，可直接提交，仓库会按最新更新时间优先匹配。
+        - 请将标题从默认值修改为能概括本次提交内容的标题，例如：`[Keyword] 添加 Human 关键词` 或 `[Keyword] 添加人律关键词`
+        - 角色 ID 与 meta 目录中的文件名一致，例如 Human 对应 meta/Human.json
+        - 关键词每行一个，避免把多个词写在同一行
+        - 若关键词可能与其他角色重合，可直接提交，仓库会按最新更新时间优先匹配
 
   - type: input
     id: role
     attributes:
       label: 角色 ID
-      description: 对应 meta 目录中的文件名，不包含 .json 后缀。
+      description: 对应 meta 目录中的文件名，不包含 .json 后缀
       placeholder: Human
     validations:
       required: true
@@ -27,10 +28,11 @@ body:
     id: keywords
     attributes:
       label: 关键词列表
-      description: 每行一个关键词，请按常用检索词填写。
+      description: 每行一个关键词，请按常用检索词填写
       placeholder: |
         人律乐土
         爱律乐土
+      render: text
     validations:
       required: true
 
@@ -38,7 +40,7 @@ body:
     id: notes
     attributes:
       label: 备注
-      description: 可选。用于补充别名来源、适用版本或冲突说明。
+      description: 可选用于补充别名来源、适用版本或冲突说明
       placeholder: 可留空
 
   - type: checkboxes
@@ -46,7 +48,9 @@ body:
     attributes:
       label: 提交确认
       options:
-        - label: 我已确认角色 ID 填写正确，并与目标 meta 文件对应。
+        - label: 我已将 Issue 标题从默认值修改为能概括本次提交内容的标题
           required: true
-        - label: 我已确认关键词按每行一个填写，没有混入多余说明文字。
+        - label: 我已确认角色 ID 填写正确，并与目标 meta 文件对应
+          required: true
+        - label: 我已确认关键词按每行一个填写，没有混入多余说明文字
           required: true

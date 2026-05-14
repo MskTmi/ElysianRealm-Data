@@ -8,6 +8,7 @@ const dataDir = process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path
 const issueBody = process.env.ISSUE_BODY ?? '';
 const issueNumber = process.env.ISSUE_NUMBER ?? '';
 const issueTitle = process.env.ISSUE_TITLE ?? '';
+const defaultIssueTitle = '[Keyword] 添加角色关键词';
 const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
 
 function setOutput(name, value) {
@@ -80,7 +81,7 @@ function parseKeywords(raw) {
     return [...new Set(
         normalized
             .split('\n')
-            .map((item) => item.trim())
+            .map((item) => item.trim().replace(/\s+/g, ''))
             .filter((item) => item && !item.startsWith('```'))
     )];
 }
@@ -134,10 +135,34 @@ function mergeKeywords(existingKeywords, incomingKeywords) {
     return { merged, added };
 }
 
+function validateIssueTitle(title) {
+    const normalized = title.trim();
+
+    if (!normalized) {
+        throw new Error('Issue title is required');
+    }
+
+    if (!normalized.startsWith('[Keyword]')) {
+        throw new Error('Issue title must start with [Keyword]');
+    }
+
+    const suffix = normalized.replace(/^\[Keyword\]\s*/, '');
+
+    if (!suffix) {
+        throw new Error('Issue title must include content after the [Keyword] prefix');
+    }
+
+    if (normalized === defaultIssueTitle) {
+        throw new Error('Issue title must be updated from the default template title');
+    }
+}
+
 function main() {
     if (!issueBody.trim()) {
         throw new Error('ISSUE_BODY is required');
     }
+
+    validateIssueTitle(issueTitle);
 
     const sections = parseSections(issueBody);
     const role = requireSection(sections, '角色 ID').trim();

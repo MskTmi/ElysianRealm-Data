@@ -112,7 +112,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: '自动同步 meta 失败，请检查角色 ID 是否对应现有图片文件，且关键词填写符合模板要求。'
+              body: '自动同步 meta 失败，请检查 Issue 标题是否已从默认值修改、角色 ID 是否对应现有图片文件，且关键词填写符合模板要求。'
             });
 
   close-pr-on-issue-closed:
