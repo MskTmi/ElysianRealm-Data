@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-05-14T07:33:26.421Z",
+    "generated_at": "2026-05-14T09:54:59.316Z",
     "resources": {
         "Anchora": {
             "image": "data/Anchora.jpg",
@@ -701,8 +701,6 @@
         ],
         "赫丽娅乐土": [
             "Helia_AstralRing",
-            "HeliaReborn_AstralRing",
-            "HeliaReborn",
             "Helia"
         ],
         "赫丽娅乐土2": [
@@ -811,9 +809,7 @@
         ],
         "科拉莉乐土": [
             "Coralie",
-            "Coralie_AstralRing",
-            "CoralieDragon_AstralRing",
-            "CoralieDragon"
+            "Coralie_AstralRing"
         ],
         "科拉莉乐土2": [
             "Coralie_AstralRing"
