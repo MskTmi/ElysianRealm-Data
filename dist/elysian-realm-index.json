@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-07-06T01:38:33.690Z",
+    "generated_at": "2026-08-06T03:49:33.998Z",
     "resources": {
         "Anchora": {
             "image": "data/Anchora.jpg",
@@ -28,7 +28,7 @@
         },
         "Coralie": {
             "image": "data/Coralie.jpg",
-            "last_updated": "2026-05-18T16:31:08+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "CoralieDragon_AstralRing": {
             "image": "data/CoralieDragon_AstralRing.jpg",
@@ -108,7 +108,7 @@
         },
         "First_Branch": {
             "image": "data/First_Branch.jpg",
-            "last_updated": "2026-05-18T16:31:08+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "First": {
             "image": "data/First.jpg",
@@ -132,7 +132,7 @@
         },
         "Helia_AstralRing": {
             "image": "data/Helia_AstralRing.jpg",
-            "last_updated": "2026-07-06T09:37:50+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Helia": {
             "image": "data/Helia.jpg",
@@ -156,7 +156,7 @@
         },
         "Human_AstralRing": {
             "image": "data/Human_AstralRing.jpg",
-            "last_updated": "2026-07-06T09:37:50+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Human_Branch": {
             "image": "data/Human_Branch.jpg",
@@ -228,7 +228,7 @@
         },
         "Oven": {
             "image": "data/Oven.jpg",
-            "last_updated": "2026-02-11T07:03:05+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Palatinus": {
             "image": "data/Palatinus.jpg",
@@ -240,7 +240,7 @@
         },
         "Panacea_AstralRing": {
             "image": "data/Panacea_AstralRing.jpg",
-            "last_updated": "2026-06-05T17:53:31+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Panacea_MMB": {
             "image": "data/Panacea_MMB.jpg",
@@ -296,7 +296,7 @@
         },
         "Rita_MissEspionage_AstralRing": {
             "image": "data/Rita_MissEspionage_AstralRing.jpg",
-            "last_updated": "2026-05-18T16:31:08+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Rita_MissEspionage": {
             "image": "data/Rita_MissEspionage.jpg",
@@ -308,7 +308,7 @@
         },
         "Rosemary": {
             "image": "data/Rosemary.jpg",
-            "last_updated": "2026-05-18T16:31:08+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Senadina": {
             "image": "data/Senadina.jpg",
@@ -440,7 +440,7 @@
         },
         "Thunder": {
             "image": "data/Thunder.jpg",
-            "last_updated": "2026-04-07T00:03:17+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Truth_Weapon": {
             "image": "data/Truth_Weapon.jpg",
@@ -458,9 +458,13 @@
             "image": "data/TwinSeele.jpg",
             "last_updated": "2023-01-06T16:29:07+08:00"
         },
+        "Vicissitude_AstralRing": {
+            "image": "data/Vicissitude_AstralRing.jpg",
+            "last_updated": "2026-08-06T00:28:09+08:00"
+        },
         "Vicissitude_Attack": {
             "image": "data/Vicissitude_Attack.jpg",
-            "last_updated": "2026-04-07T00:03:17+08:00"
+            "last_updated": "2026-08-06T11:41:32+08:00"
         },
         "Vicissitude_Branch_MMB": {
             "image": "data/Vicissitude_Branch_MMB.jpg",
@@ -470,9 +474,13 @@
             "image": "data/Vicissitude_Branch.jpg",
             "last_updated": "2026-05-18T16:31:08+08:00"
         },
+        "Vicissitude": {
+            "image": "data/Vicissitude.jpg",
+            "last_updated": "2026-08-06T00:28:09+08:00"
+        },
         "Vita_AstralRing": {
             "image": "data/Vita_AstralRing.jpg",
-            "last_updated": "2026-05-18T16:31:08+08:00"
+            "last_updated": "2026-08-06T00:28:09+08:00"
         },
         "Vita": {
             "image": "data/Vita.jpg",
@@ -556,34 +564,54 @@
             "Vicissitude_Branch"
         ],
         "崩符乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude",
+            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
-            "Vicissitude_Branch",
-            "Vicissitude_Attack"
-        ],
-        "崩符乐土2": [
             "Vicissitude_Branch"
         ],
+        "崩符乐土2": [
+            "Vicissitude_AstralRing"
+        ],
         "崩符乐土3": [
+            "Vicissitude_Attack"
+        ],
+        "崩符乐土4": [
+            "Vicissitude_Branch"
+        ],
+        "崩符乐土5": [
             "Vicissitude_Branch_MMB"
         ],
         "崩符普攻流": [
-            "Vicissitude_Attack"
+            "Vicissitude_Attack",
+            "Vicissitude"
         ],
         "崩符千机": [
             "Vicissitude_Branch_MMB"
+        ],
+        "崩符星环流": [
+            "Vicissitude_AstralRing"
         ],
         "崩符蓄力流": [
             "Vicissitude_Branch"
         ],
         "崩落华乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude",
+            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
-            "Vicissitude_Branch",
-            "Vicissitude_Attack"
-        ],
-        "崩落华乐土2": [
             "Vicissitude_Branch"
         ],
+        "崩落华乐土2": [
+            "Vicissitude_AstralRing"
+        ],
         "崩落华乐土3": [
+            "Vicissitude_Attack"
+        ],
+        "崩落华乐土4": [
+            "Vicissitude_Branch"
+        ],
+        "崩落华乐土5": [
             "Vicissitude_Branch_MMB"
         ],
         "冰八乐土": [
@@ -605,8 +633,8 @@
             "Reason"
         ],
         "臭鼬乐土": [
-            "Coralie_MMB",
             "Coralie",
+            "Coralie_MMB",
             "Coralie_AstralRing"
         ],
         "臭鼬乐土2": [
@@ -646,9 +674,9 @@
             "Kiana_Attack"
         ],
         "大希儿乐土": [
+            "Panacea_AstralRing",
             "Panacea_MMB",
             "Panacea",
-            "Panacea_AstralRing",
             "Panacea_AstralRing_MMB"
         ],
         "大希儿乐土1": [
@@ -892,8 +920,8 @@
             "Starry"
         ],
         "火锤乐土": [
-            "Coralie_MMB",
             "Coralie",
+            "Coralie_MMB",
             "Coralie_AstralRing"
         ],
         "火锤乐土2": [
@@ -907,28 +935,40 @@
             "Vicissitude_Branch"
         ],
         "火符乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude",
+            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
-            "Vicissitude_Branch",
-            "Vicissitude_Attack"
-        ],
-        "火符乐土2": [
             "Vicissitude_Branch"
         ],
+        "火符乐土2": [
+            "Vicissitude_AstralRing"
+        ],
         "火符乐土3": [
+            "Vicissitude_Attack"
+        ],
+        "火符乐土4": [
+            "Vicissitude_Branch"
+        ],
+        "火符乐土5": [
             "Vicissitude_Branch_MMB"
         ],
         "火符普攻流": [
-            "Vicissitude_Attack"
+            "Vicissitude_Attack",
+            "Vicissitude"
         ],
         "火符千机": [
             "Vicissitude_Branch_MMB"
+        ],
+        "火符星环流": [
+            "Vicissitude_AstralRing"
         ],
         "火符蓄力流": [
             "Vicissitude_Branch"
         ],
         "火塔乐土": [
-            "Oven_MMB",
-            "Oven"
+            "Oven",
+            "Oven_MMB"
         ],
         "火塔乐土2": [
             "Oven_MMB"
@@ -950,14 +990,22 @@
             "HeliaReborn_AstralRing"
         ],
         "鸡妈妈乐土": [
+            "Vicissitude_Attack",
+            "Vicissitude",
+            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
-            "Vicissitude_Branch",
-            "Vicissitude_Attack"
-        ],
-        "鸡妈妈乐土2": [
             "Vicissitude_Branch"
         ],
+        "鸡妈妈乐土2": [
+            "Vicissitude_AstralRing"
+        ],
         "鸡妈妈乐土3": [
+            "Vicissitude_Attack"
+        ],
+        "鸡妈妈乐土4": [
+            "Vicissitude_Branch"
+        ],
+        "鸡妈妈乐土5": [
             "Vicissitude_Branch_MMB"
         ],
         "姬子乐土": [
@@ -982,15 +1030,15 @@
             "Carol"
         ],
         "烤箱乐土": [
-            "Oven_MMB",
-            "Oven"
+            "Oven",
+            "Oven_MMB"
         ],
         "烤箱乐土2": [
             "Oven_MMB"
         ],
         "科拉莉乐土": [
-            "Coralie_MMB",
             "Coralie",
+            "Coralie_MMB",
             "Coralie_AstralRing"
         ],
         "科拉莉乐土2": [
@@ -1018,8 +1066,8 @@
             "Void"
         ],
         "拉莉乐土": [
-            "Coralie_MMB",
             "Coralie",
+            "Coralie_MMB",
             "Coralie_AstralRing"
         ],
         "拉莉乐土2": [
@@ -1128,8 +1176,8 @@
             "Lnfinite"
         ],
         "迷迭乐土": [
-            "Rosemary_MMB",
-            "Rosemary"
+            "Rosemary",
+            "Rosemary_MMB"
         ],
         "迷迭乐土2": [
             "Rosemary_MMB"
@@ -1264,8 +1312,8 @@
             "Gloria"
         ],
         "色律乐土": [
-            "Rita_MissEspionage_AstralRing_MMB",
             "Rita_MissEspionage_AstralRing",
+            "Rita_MissEspionage_AstralRing_MMB",
             "Rita_MissEspionage"
         ],
         "色律乐土2": [
@@ -1467,8 +1515,8 @@
             "Rebirth_Life"
         ],
         "特丽乐土": [
-            "Rita_MissEspionage_AstralRing_MMB",
             "Rita_MissEspionage_AstralRing",
+            "Rita_MissEspionage_AstralRing_MMB",
             "Rita_MissEspionage"
         ],
         "特丽乐土2": [
@@ -1484,8 +1532,8 @@
             "Rita_MissEspionage_AstralRing_MMB"
         ],
         "特丽星环流": [
-            "Rita_MissEspionage_AstralRing_MMB",
-            "Rita_MissEspionage_AstralRing"
+            "Rita_MissEspionage_AstralRing",
+            "Rita_MissEspionage_AstralRing_MMB"
         ],
         "天鹅乐土": [
             "Palatinus"
@@ -1570,8 +1618,8 @@
             "Flamescion"
         ],
         "星棘乐土": [
-            "Oven_MMB",
-            "Oven"
+            "Oven",
+            "Oven_MMB"
         ],
         "星棘乐土2": [
             "Oven_MMB"
@@ -1590,8 +1638,8 @@
             "Kiana_Attack"
         ],
         "星塔乐土": [
-            "Oven_MMB",
-            "Oven"
+            "Oven",
+            "Oven_MMB"
         ],
         "星芽乐土": [
             "Mei_DawnbearingCrescent_AstralRing",
@@ -1604,8 +1652,8 @@
             "Mei_DawnbearingCrescent_AstralRing"
         ],
         "虚塔乐土": [
-            "Rita_MissEspionage_AstralRing_MMB",
             "Rita_MissEspionage_AstralRing",
+            "Rita_MissEspionage_AstralRing_MMB",
             "Rita_MissEspionage"
         ],
         "虚塔乐土2": [
@@ -1657,9 +1705,9 @@
             "Dreamweaver_Weapon"
         ],
         "愈生乐土": [
+            "Panacea_AstralRing",
             "Panacea_MMB",
             "Panacea",
-            "Panacea_AstralRing",
             "Panacea_AstralRing_MMB"
         ],
         "愈生乐土1": [
@@ -1686,9 +1734,9 @@
             "Panacea_AstralRing_MMB"
         ],
         "愈生佑翎乐土": [
+            "Panacea_AstralRing",
             "Panacea_MMB",
             "Panacea",
-            "Panacea_AstralRing",
             "Panacea_AstralRing_MMB"
         ],
         "月痕乐土": [
@@ -1789,8 +1837,8 @@
             "Finally"
         ],
         "重机乐土": [
-            "Coralie_MMB",
             "Coralie",
+            "Coralie_MMB",
             "Coralie_AstralRing"
         ],
         "重机乐土2": [
