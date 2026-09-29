@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-08-24T09:03:34.150Z",
+    "generated_at": "2026-09-29T15:41:58.461Z",
     "resources": {
         "Anchora": {
             "image": "data/Anchora.jpg",
@@ -100,7 +100,7 @@
         },
         "Finally_Branch": {
             "image": "data/Finally_Branch.jpg",
-            "last_updated": "2026-01-10T07:33:52+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Finally": {
             "image": "data/Finally.jpg",
@@ -132,7 +132,7 @@
         },
         "Helia_AstralRing": {
             "image": "data/Helia_AstralRing.jpg",
-            "last_updated": "2026-08-24T15:01:49+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Helia": {
             "image": "data/Helia.jpg",
@@ -156,7 +156,7 @@
         },
         "Human_AstralRing": {
             "image": "data/Human_AstralRing.jpg",
-            "last_updated": "2026-08-24T15:01:49+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Human_Branch": {
             "image": "data/Human_Branch.jpg",
@@ -204,7 +204,7 @@
         },
         "LoveELF": {
             "image": "data/LoveELF.jpg",
-            "last_updated": "2025-12-10T16:05:17+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "LunaKindred": {
             "image": "data/LunaKindred.jpg",
@@ -228,7 +228,7 @@
         },
         "Oven": {
             "image": "data/Oven.jpg",
-            "last_updated": "2026-08-24T15:01:49+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Palatinus": {
             "image": "data/Palatinus.jpg",
@@ -240,7 +240,7 @@
         },
         "Panacea_AstralRing": {
             "image": "data/Panacea_AstralRing.jpg",
-            "last_updated": "2026-08-06T00:28:09+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Panacea_MMB": {
             "image": "data/Panacea_MMB.jpg",
@@ -268,7 +268,7 @@
         },
         "Rebirth_AstralRing": {
             "image": "data/Rebirth_AstralRing.jpg",
-            "last_updated": "2026-08-24T15:01:49+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Rebirth_Death": {
             "image": "data/Rebirth_Death.jpg",
@@ -296,7 +296,7 @@
         },
         "Rita_MissEspionage_AstralRing": {
             "image": "data/Rita_MissEspionage_AstralRing.jpg",
-            "last_updated": "2026-08-24T15:01:49+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Rita_MissEspionage": {
             "image": "data/Rita_MissEspionage.jpg",
@@ -442,6 +442,14 @@
             "image": "data/Thunder.jpg",
             "last_updated": "2026-08-06T00:28:09+08:00"
         },
+        "Time_AstralRing": {
+            "image": "data/Time_AstralRing.jpg",
+            "last_updated": "2026-09-29T22:52:04+08:00"
+        },
+        "Time": {
+            "image": "data/Time.jpg",
+            "last_updated": "2026-09-29T22:52:04+08:00"
+        },
         "Truth_Weapon": {
             "image": "data/Truth_Weapon.jpg",
             "last_updated": "2025-04-29T16:07:01+08:00"
@@ -460,7 +468,7 @@
         },
         "Vicissitude_AstralRing": {
             "image": "data/Vicissitude_AstralRing.jpg",
-            "last_updated": "2026-08-06T00:28:09+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Vicissitude_Attack": {
             "image": "data/Vicissitude_Attack.jpg",
@@ -484,7 +492,7 @@
         },
         "Vita": {
             "image": "data/Vita.jpg",
-            "last_updated": "2025-10-07T08:27:23+08:00"
+            "last_updated": "2026-09-29T22:52:04+08:00"
         },
         "Void_Skill": {
             "image": "data/Void_Skill.jpg",
@@ -519,9 +527,9 @@
             "Human_Branch"
         ],
         "爱神乐土": [
+            "LoveELF",
             "LoveELF_MMB",
-            "LoveELF_AstralRing",
-            "LoveELF"
+            "LoveELF_AstralRing"
         ],
         "爱神乐土2": [
             "LoveELF_AstralRing"
@@ -530,9 +538,9 @@
             "Cabbage"
         ],
         "爱愿乐土": [
+            "LoveELF",
             "LoveELF_MMB",
-            "LoveELF_AstralRing",
-            "LoveELF"
+            "LoveELF_AstralRing"
         ],
         "爱愿乐土2": [
             "LoveELF_MMB",
@@ -542,9 +550,9 @@
             "LoveELF_AstralRing"
         ],
         "爱愿妖精乐土": [
+            "LoveELF",
             "LoveELF_MMB",
-            "LoveELF_AstralRing",
-            "LoveELF"
+            "LoveELF_AstralRing"
         ],
         "爱愿妖精乐土2": [
             "LoveELF_MMB",
@@ -564,9 +572,9 @@
             "Vicissitude_Branch"
         ],
         "崩符乐土": [
+            "Vicissitude_AstralRing",
             "Vicissitude",
             "Vicissitude_Attack",
-            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
             "Vicissitude_Branch"
         ],
@@ -596,9 +604,9 @@
             "Vicissitude_Branch"
         ],
         "崩落华乐土": [
+            "Vicissitude_AstralRing",
             "Vicissitude",
             "Vicissitude_Attack",
-            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
             "Vicissitude_Branch"
         ],
@@ -674,8 +682,8 @@
             "Kiana_Attack"
         ],
         "大希儿乐土": [
-            "Panacea",
             "Panacea_AstralRing",
+            "Panacea",
             "Panacea_MMB",
             "Panacea_AstralRing_MMB"
         ],
@@ -904,8 +912,8 @@
             "Sparkle_AstralRing"
         ],
         "坏女人乐土": [
-            "Vita_AstralRing",
-            "Vita"
+            "Vita",
+            "Vita_AstralRing"
         ],
         "坏女人乐土2": [
             "Vita_AstralRing"
@@ -935,9 +943,9 @@
             "Vicissitude_Branch"
         ],
         "火符乐土": [
+            "Vicissitude_AstralRing",
             "Vicissitude",
             "Vicissitude_Attack",
-            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
             "Vicissitude_Branch"
         ],
@@ -990,9 +998,9 @@
             "HeliaReborn_AstralRing"
         ],
         "鸡妈妈乐土": [
+            "Vicissitude_AstralRing",
             "Vicissitude",
             "Vicissitude_Attack",
-            "Vicissitude_AstralRing",
             "Vicissitude_Branch_MMB",
             "Vicissitude_Branch"
         ],
@@ -1174,6 +1182,16 @@
         ],
         "梅比乌斯乐土": [
             "Lnfinite"
+        ],
+        "梦追人乐土": [
+            "Time",
+            "Time_AstralRing"
+        ],
+        "梦追人乐土2": [
+            "Time_AstralRing"
+        ],
+        "梦追人星环流": [
+            "Time_AstralRing"
         ],
         "迷迭乐土": [
             "Rosemary",
@@ -1364,6 +1382,36 @@
         "蛇蛇乐土": [
             "Lnfinite"
         ],
+        "神寻乐土": [
+            "Time",
+            "Time_AstralRing"
+        ],
+        "神寻乐土2": [
+            "Time_AstralRing"
+        ],
+        "神寻星环流": [
+            "Time_AstralRing"
+        ],
+        "时律乐土": [
+            "Time",
+            "Time_AstralRing"
+        ],
+        "时律乐土2": [
+            "Time_AstralRing"
+        ],
+        "时律星环流": [
+            "Time_AstralRing"
+        ],
+        "时序之律者乐土": [
+            "Time",
+            "Time_AstralRing"
+        ],
+        "时序之律者乐土2": [
+            "Time_AstralRing"
+        ],
+        "时序之律者星环流": [
+            "Time_AstralRing"
+        ],
         "时雨乐土": [
             "ShigureKira"
         ],
@@ -1542,8 +1590,8 @@
             "Palatinus"
         ],
         "薇塔乐土": [
-            "Vita_AstralRing",
-            "Vita"
+            "Vita",
+            "Vita_AstralRing"
         ],
         "薇塔乐土2": [
             "Vita_AstralRing"
@@ -1662,6 +1710,16 @@
         "虚塔乐土3": [
             "Rita_MissEspionage_AstralRing_MMB"
         ],
+        "寻梦者乐土": [
+            "Time",
+            "Time_AstralRing"
+        ],
+        "寻梦者乐土2": [
+            "Time_AstralRing"
+        ],
+        "寻梦者星环流": [
+            "Time_AstralRing"
+        ],
         "巡矢乐土": [
             "Helia_AstralRing",
             "Helia"
@@ -1705,8 +1763,8 @@
             "Dreamweaver_Weapon"
         ],
         "愈生乐土": [
-            "Panacea",
             "Panacea_AstralRing",
+            "Panacea",
             "Panacea_MMB",
             "Panacea_AstralRing_MMB"
         ],
@@ -1734,8 +1792,8 @@
             "Panacea_AstralRing_MMB"
         ],
         "愈生佑翎乐土": [
-            "Panacea",
             "Panacea_AstralRing",
+            "Panacea",
             "Panacea_MMB",
             "Panacea_AstralRing_MMB"
         ],
@@ -1824,8 +1882,8 @@
             "Finally_Branch"
         ],
         "终焉乐土": [
-            "Finally",
-            "Finally_Branch"
+            "Finally_Branch",
+            "Finally"
         ],
         "终焉乐土2": [
             "Finally_Branch"
