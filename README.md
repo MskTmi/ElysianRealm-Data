@@ -195,6 +195,8 @@ node scripts/build-index.js
 | Rosemary.jpg                           | 失落迷迭                           |
 | Rosemary_MMB.jpg                       | 失落迷迭 (千机兵幕)                |
 | Cabbage.jpg                            | 时帆旅人                           |
+| Time.jpg                               | 时序之律者                          |
+| Time_AstralRing.jpg                    | 时序之律者星环流                       |
 | ShigureKira_Branch.jpg                 | 时雨绮                             |
 | ShigureKira.jpg                        | 时雨绮罗                           |
 | Sentience_brick.jpg                    | 识律板砖流                         |
